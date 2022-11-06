@@ -1,0 +1,202 @@
+:root {
+  --ui-color: #DBA069;
+  --text-color: #333333;
+}
+
+
+
+.section__hat {
+  position: absolute;
+  width: 1440px;
+  height: 736px;
+  background-color: aqua;
+}
+
+.header__logo {
+  position: absolute;
+  width: 144px;
+  height: 137px;
+  left: 130px;
+  top: 0px;
+}
+
+.header__socialcontacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 35px;
+  position: absolute;
+  width: 287.68px;
+  height: 44px;
+  left: 1022px;
+  top: 25px;
+}
+
+.submenu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+  position: absolute;
+  width: 789px;
+  height: 26px;
+  left: 521px;
+  top: 85px;
+  list-style: none;
+}
+
+.submenu__item {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.submenu__link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.hat__content {
+  position: absolute;
+  width: 846px;
+  height: 343px;
+  left: 130px;
+  top: 252px;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 30px;
+  border: 1px solid var(--ui-color);
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--text-color);
+  background-color: var(--ui-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.underbutton {
+  margin-top: 40px;
+}
+
+.row__content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.ts__cottages {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.content__text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.big__numbers {
+  font-size: 128px;
+  font-weight: 400
+}
+
+.hat__text {
+  position: absolute;
+  top: 267px;
+  left: 1018px;
+  width: 296px;
+}
+
+.hat__fat-text {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+
+
+
+.section__about-project {
+  position: absolute;
+  width: 1440px;
+  height: 942px;
+  top: 736px;
+}
+
+.section__cotteges {
+  position: absolute;
+  width: 1440px;
+  height: 613px;
+  top: 1678px;
+}
+
+.section__location {
+  position: absolute;
+  width: 1839px;
+  height: 520px;
+  left: 138px;
+  top: 2384px;
+}
+
+.section__benefits {
+  position: absolute;
+  width: 1560px;
+  height: 1344px;
+  left: -390px;
+  top: 2857px;
+}
+
+.section__reasons {
+  position: absolute;
+  width: 2306px;
+  height: 728px;
+  left: -349px;
+  top: 4216px;
+}
+
+.section__technology {
+  position: absolute;
+  width: 1836px;
+  height: 1783.73px;
+  left: -189px;
+  top: 4978px;
+}
+
+.download__presentation {
+  position: absolute;
+  width: 1180px;
+  height: 353px;
+  left: 130px;
+  top: 6842px;
+}
+
+.section__payment {
+  position: absolute;
+  width: 893px;
+  height: 482px;
+  left: 299px;
+  top: 7176px;
+}
+
+.contacts {
+  position: absolute;
+  width: 1178px;
+  height: 428px;
+  left: 130px;
+  top: 7719px;
+}
+
+.footer {
+  position: absolute;
+  width: 688px;
+  height: 66px;
+  left: 376px;
+  top: 8247px;
+  bottom: 28px;
+}
