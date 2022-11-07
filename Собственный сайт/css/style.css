@@ -155,13 +155,14 @@
   width: 1440px;
   height: 942px;
   top: 736px;
+  overflow: hidden;
 }
 
 .content__about-project {
   display: flex;
   flex-direction: column;
   gap: 60px;
-  align-items: flex-start;
+  justify-content: space-between;
   position: absolute;
   width: 680px;
   height: 788px;
@@ -172,9 +173,32 @@
 .h2__about-project {
   font-weight: 700;
   font-size: 48px;
+  margin: 0;
 }
 
+.ul__subcontent {
+  padding: 0;
+  margin-top: 0;
+}
 
+.main-submenu__a-p1 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
+
+.main-submenu__a-p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.subcontent__about-project {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  list-style: none;
+}
 
 .rec__34 {
   position: absolute;
@@ -206,7 +230,6 @@
   height: 513px;
   left: 1401px;
   top: 244px;
-  overflow: hidden;
 }
 
 .purpose {
@@ -228,12 +251,46 @@
 
 
 
-.section__cotteges {
+.section__cottages {
   position: absolute;
   width: 1440px;
   height: 613px;
   top: 1678px;
 }
+
+.h2__cottages {
+  margin-left: 130px;
+  margin-top: 39px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.cottages__img {
+  display: flex;
+  flex-direction: row;
+}
+
+.rec__6 {
+  left: 137.59px;
+  top: 1803px;
+}
+
+.internal2 {
+  left: 90px;
+  top: 1869px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section__location {
   position: absolute;
