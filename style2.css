@@ -318,6 +318,7 @@
   left: 0;
   width: 480px;
   padding: 0;
+  margin-top: 40px;
 }
 
 .underh2__text {
@@ -345,6 +346,11 @@
   left: 771px;
 }
 
+.group__18 {
+  position: absolute;
+  top: 156px;
+  left: 819px;
+}
 
 
 
