@@ -111,17 +111,20 @@
 .row__content {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 .ts__cottages {
   font-weight: 700;
   font-size: 32px;
+  margin-bottom: 0;
+  margin-top: 40px;
 }
 
 .content__text {
   font-weight: 400;
   font-size: 20px;
+  margin-top: 0;
 }
 
 .big__numbers {
@@ -256,31 +259,63 @@
   width: 1440px;
   height: 613px;
   top: 1678px;
+  background-image: url(/assets/Секция\ коттеджи/Rectangle5.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.div__cottages {
+  position: absolute;
+  width: 1360px;
+  height: 530px;
+  left: 0;
+  right: 40px;
+  top: 39px;
 }
 
 .h2__cottages {
-  margin-left: 130px;
-  margin-top: 39px;
+  position: absolute;
+  left: 130px;
+  margin: 0;
   font-weight: 700;
   font-size: 48px;
 }
 
-.cottages__img {
-  display: flex;
-  flex-direction: row;
+.cottage__arrow-left {
+  position: absolute;
+  left: 40px;
+  top: 277px;
 }
 
 .rec__6 {
-  left: 137.59px;
-  top: 1803px;
+  position: absolute;
+  top: 86px;
+  left: 130px;
 }
 
 .internal2 {
+  position: absolute;
+  top: 152px;
   left: 90px;
-  top: 1869px;
 }
 
+.group__2 {
+  position: absolute;
+  top: 86px;
+  left: 830px;
+}
 
+.cottage__arrow-right {
+  position: absolute;
+  top: 277px;
+  left: 1350px;
+  right: 40px;
+}
 
 
 
@@ -296,9 +331,74 @@
   position: absolute;
   width: 1839px;
   height: 520px;
-  left: 138px;
+  left: 124px;
   top: 2384px;
 }
+
+.location__text {
+  position: absolute;
+  left: 130px;
+  top: 181px
+}
+
+.h2__location {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+}
+
+.ulunder__text {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 480px;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.underh2__text {
+  font-weight: 300;
+  font-size: 20px;
+  list-style: none;
+}
+
+.underh22__text {
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  list-style: none;
+}
+
+.rec__3 {
+  position: absolute;
+  top: 96px;
+  left: 729px;
+}
+
+.rec__33 {
+  position: absolute;
+  top: 138px;
+  left: 771px;
+}
+
+.group__18 {
+  position: absolute;
+  top: 156px;
+  left: 819px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section__benefits {
   position: absolute;
