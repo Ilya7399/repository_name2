@@ -1,6 +1,32 @@
+@font-face {
+  font-family: 'Fira Sans Bold';
+  src: url(../assets/fonts/FiraSans-Bold.ttf) format('ttf'),
+    url(../assets/fonts/FiraSans-BoldItalic.ttf) format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans Regular';
+  src: url(../assets/fonts/FiraSans-Regular.ttf) format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans Light';
+  src: url(../assets/fonts/FiraSans-Light.ttf) format('ttf'),
+    url(../assets/fonts/FiraSans-LightItalic.ttf) format('ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --ui-color: #DBA069;
-  --text-color: #FFFFFF;
+  --text-color: #333333;
 }
 
 * {
@@ -9,6 +35,10 @@
 
 html {
   font-size: 1rem;
+}
+
+body {
+  font-family: 'Fira Sans Light', Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -24,16 +54,6 @@ img {
   height: auto;
 }
 
-.h2 {
-  font-weight: 700;
-  font-size: 48px;
-}
-
-.h3 {
-  font-weight: 700;
-  font-size: 20px;
-}
-
 .icon {
   width: 56px;
   height: 56px;
@@ -41,6 +61,31 @@ img {
 
 .list-reset {
   list-style: none;
+}
+
+.h1 {
+  font-family: 'Fira Sans Bold';
+  font-size: 2.375rem;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.h2 {
+  font-family: 'Fira Sans Bold';
+  font-size: 3rem;
+  color: #000000;
+}
+
+.h3 {
+  font-family: 'Fira Sans Bold';
+  font-size: 1.25rem;
+  color: #000000;
+}
+
+.text {
+  font-family: 'Fira Sans Light';
+  font-size: 1.25rem;
+  line-height: 110%;
 }
 
 
@@ -114,18 +159,22 @@ img {
   flex-direction: row;
 }
 
+
+
+
+
+
 .first-section__container {
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin-top: 115px;
 }
 
 .tel__number {
-  font-weight: 400;
-  font-size: 20px;
   letter-spacing: 0.04em;
   color: #FFFFFF;
   margin-left: 10px;
@@ -135,19 +184,8 @@ img {
   margin-top: 16px;
 }
 
-.submenu__item {
-  font-weight: 400;
-  font-size: 16px;
-}
-
 .submenu__link {
   text-decoration: none;
-  color: var(--text-color);
-}
-
-.h1 {
-  font-weight: 700;
-  font-size: 38px;
   color: #FFFFFF;
 }
 
@@ -155,7 +193,7 @@ img {
   display: inline-block;
   padding: 20px 30px;
   border: 1px solid var(--ui-color);
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 140%;
   color: #000000;
   background-color: var(--ui-color);
@@ -177,7 +215,7 @@ img {
 
 .first-section__big-number {
   font-size: 128px;
-  font-weight: 400
+  font-weight: 400;
 }
 
 .first-section__left-content-text {
@@ -192,8 +230,6 @@ img {
 
 .first-section__right-content {
   margin-left: 36px;
-  padding-top: 22px;
-  padding-right: 40px;
   color: #FFFFFF;
 }
 
@@ -241,14 +277,10 @@ img {
 }
 
 .about-project__subcontent {
-  font-weight: 300;
-  font-size: 20px;
   margin: 0;
 }
 
 .about-project__bottom-subcontent {
-  font-weight: 300;
-  font-size: 20px;
   margin-top: 0;
   margin-bottom: 51px;
 }
@@ -314,8 +346,6 @@ img {
 
 .about-project__bg {
   position: absolute;
-  width: 1375px;
-  height: 312px;
   font-weight: 700;
   font-size: 287px;
   opacity: 0.05;
@@ -394,11 +424,10 @@ img {
 .cottages__figure-text {
   position: absolute;
   font-weight: 700;
-  font-size: 32px;
-  width: 90px;
+  font-size: 2rem;
+  width: 100px;
   margin-top: 5px;
-  margin-left: 827px;
-  order: 4;
+  margin-left: 805px;
 }
 
 .rec__7 {
@@ -443,14 +472,10 @@ img {
 .location__text1 {
   margin-top: 48px;
   width: 480px;
-  font-weight: 300;
-  font-size: 20px;
 }
 
 .location__text2 {
   width: 480px;
-  font-weight: 300;
-  font-size: 20px;
 }
 
 .location__h2 {
@@ -493,8 +518,6 @@ img {
   font-weight: 700;
   font-size: 287px;
   opacity: 0.05;
-  width: 1839px;
-  height: 275px;
   margin-top: -45px;
 }
 
@@ -529,8 +552,6 @@ img {
 }
 
 .benefit-icons__text {
-  font-weight: 300;
-  font-size: 20px;
   padding-left: 15px;
   margin-top: 0;
 }
@@ -563,8 +584,6 @@ img {
 }
 
 .benefits__icon-3__text {
-  font-weight: 300;
-  font-size: 20px;
   padding-left: 15px;
   margin-top: 0;
   width: 550px;
@@ -587,8 +606,6 @@ img {
 }
 
 .benefits__icon-4__text {
-  font-weight: 300;
-  font-size: 20px;
   padding-left: 15px;
   margin-top: 0;
   width: 300px;
@@ -715,14 +732,12 @@ img {
 
 .reasons__text {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin: 0;
 }
 
 .reasons__bg {
   position: absolute;
-  width: 1973px;
-  height: 256px;
   font-weight: 700;
   font-size: 213px;
   opacity: 0.05;
@@ -756,7 +771,7 @@ img {
 }
 
 .technology__h2 {
-  margin-left: 355px;
+  margin-left: 417px;
   margin-bottom: 42px;
 }
 
@@ -784,15 +799,136 @@ img {
 .technology__text {
   margin-bottom: 83px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .technology__bg {
   position: absolute;
-  width: 1836px;
-  height: 280px;
   font-weight: 700;
   font-size: 233px;
   opacity: 0.05;
-  margin-top: -1860px;
+  margin-top: -1900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.presentation__container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  border: 8px solid #842231;
+}
+
+.presentation__h2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 70px auto 12px;
+  width: 390px;
+}
+
+.presentation__text {
+  font-weight: 400;
+  font-size: 1.3125rem;
+  margin-left: 380px;
+  margin-bottom: 36px;
+  width: 880px;
+}
+
+.presentation__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 150px 70px;
+  height: 85px;
+}
+
+.presentation__form-group {
+  padding: 0;
+  border-width: 0px;
+  margin-top: 4px;
+}
+
+.presentation__form-legend {
+  display: none;
+}
+
+.presentation__form-input {
+  border-radius: 8px;
+  padding: 32px 10px 32px 58px;
+}
+
+.presentation__button-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #842231;
+  border-radius: 8px;
+  width: 280px;
+  height: 86px;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payment__container {
+  max-width: 893px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.payment__h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.payment__menu {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.payment__images {
+  margin-left: 30px;
+}
+
+.payment__text {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  width: 184px;
 }
