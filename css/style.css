@@ -771,7 +771,8 @@ img {
 }
 
 .technology__h2 {
-  margin-left: 417px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 42px;
 }
 
@@ -872,6 +873,8 @@ img {
 .presentation__form-input {
   border-radius: 8px;
   padding: 32px 10px 32px 58px;
+  border: 0;
+  background: #F2F6FA;
 }
 
 .presentation__button-send {
@@ -914,6 +917,8 @@ img {
 .payment__h2 {
   display: flex;
   justify-content: center;
+  margin-top: 131px;
+  margin-bottom: 68px;
 }
 
 .payment__menu {
@@ -921,6 +926,7 @@ img {
   flex-direction: row;
   padding: 0;
   justify-content: space-between;
+  margin: 0;
 }
 
 .payment__images {
@@ -931,4 +937,139 @@ img {
   font-weight: 700;
   font-size: 1.0625rem;
   width: 184px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.payment__first-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment__first-first-item {
+  padding-left: 20px;
+}
+
+.payment__first-second-item {
+  padding-left: 55px;
+}
+
+.payment__bg {
+  position: absolute;
+  font-family: 'Fira Sans Bold';
+  width: 872px;
+  height: 312px;
+  font-weight: 700;
+  font-size: 260px;
+  opacity: 0.05;
+  margin-top: -470px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contacts__container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts__information {
+  margin-left: 102px;
+}
+
+.contacts__h2 {
+  margin-bottom: 28px;
+}
+
+.contacts__address {
+  margin-bottom: 20px;
+}
+
+.contacts__connect-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contacts__menu {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contacts__icons {}
+
+.contacts__link {
+  margin-left: 10px;
+  color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  max-width: 688px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Fira Sans Light';
+  font-size: 1.25rem;
+}
+
+.footer__links {
+  color: #333333;
+}
+
+.final-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+  margin-bottom: 28px;
+  color: #842231;
 }
