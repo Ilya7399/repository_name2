@@ -42,6 +42,7 @@ body {
 }
 
 a {
+  font-family: 'Fira Sans Light', Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
@@ -209,12 +210,12 @@ img {
 
 .first-section__ts-cottages {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
   margin-bottom: 0;
 }
 
 .first-section__big-number {
-  font-size: 128px;
+  font-size: 8rem;
   font-weight: 400;
 }
 
@@ -225,7 +226,7 @@ img {
   padding-left: 0;
   width: 116px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .first-section__right-content {
@@ -235,7 +236,7 @@ img {
 
 .first-section__right-content-fat {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 
@@ -262,6 +263,7 @@ img {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .about-project__left-content {
@@ -318,14 +320,14 @@ img {
 
 .rec__34 {
   width: 442px;
-  height: 417.53px;
+  height: 418px;
   order: 1;
   z-index: 3;
 }
 
 .rec__35 {
   width: 442px;
-  height: 417.53px;
+  height: 418px;
   margin-top: -384px;
   margin-left: 42px;
   order: 2;
@@ -361,7 +363,7 @@ img {
 .about-project__bg {
   position: absolute;
   font-weight: 700;
-  font-size: 250px;
+  font-size: 15.625rem;
   opacity: 0.05;
   margin-top: -5px;
 }
@@ -433,7 +435,7 @@ img {
 }
 
 .rec__6 {
-  width: 692.41px;
+  width: 692px;
   height: 414px;
   margin-left: -490px;
   order: 2;
@@ -537,7 +539,7 @@ img {
 .location__bg {
   position: absolute;
   font-weight: 700;
-  font-size: 287px;
+  font-size: 17.9375rem;
   opacity: 0.05;
   margin-top: -45px;
 }
@@ -686,8 +688,8 @@ img {
 }
 
 .reasons__content {
- display: flex;
- flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .reasons__image {
@@ -695,15 +697,15 @@ img {
 }
 
 .rec__9 {
-  width: 452.95px;
-  height: 399.5px;
+  width: 453px;
+  height: 400px;
   z-index: 2;
   order: 1;
 }
 
 .rec__10 {
-  width: 452.95px;
-  height: 400.41px;
+  width: 453px;
+  height: 400px;
   margin-top: -370px;
   margin-left: -42px;
   z-index: 1;
@@ -836,7 +838,7 @@ img {
 .technology__bg {
   position: absolute;
   font-weight: 700;
-  font-size: 233px;
+  font-size: 14.5625rem;
   opacity: 0.05;
   margin-top: -1900px;
 }
@@ -990,7 +992,7 @@ img {
   width: 872px;
   height: 312px;
   font-weight: 700;
-  font-size: 260px;
+  font-size: 16.25rem;
   opacity: 0.05;
   margin-top: -470px;
 }
