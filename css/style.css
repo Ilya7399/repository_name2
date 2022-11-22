@@ -42,7 +42,6 @@ body {
 }
 
 a {
-  font-family: 'Fira Sans Light', Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
@@ -98,6 +97,8 @@ img {
 
 .first-screen__section {
   position: relative;
+  display: flex;
+  flex-direction: column;
   background-image: url(/assets/img/Секция\ header/Фон.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -114,18 +115,14 @@ img {
   margin: 0 auto;
 }
 
-.first-section__left-content {
-  margin-bottom: 141px;
-}
-
 .header__row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0;
-  gap: 247px;
 }
 
-.header__nav-social-contacts {
+.header__links {
   display: flex;
   flex-direction: column;
 }
@@ -146,6 +143,12 @@ img {
   order: 1;
 }
 
+.tel__number {
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
 .nav__menu {
   display: flex;
   justify-content: space-between;
@@ -155,10 +158,21 @@ img {
   gap: 50px;
 }
 
-.first-section__row-content {
-  display: flex;
-  flex-direction: row;
+.menu {
+  margin-top: 16px;
 }
+
+.submenu__link {
+  font-family: 'Fira Sans Regular';
+  font-size: 1rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+
+
+
 
 
 
@@ -175,25 +189,18 @@ img {
   margin-top: 115px;
 }
 
-.tel__number {
-  letter-spacing: 0.04em;
-  color: #FFFFFF;
-  margin-left: 10px;
-}
-
-.menu {
-  margin-top: 16px;
-}
-
-.submenu__link {
-  text-decoration: none;
-  color: #FFFFFF;
+.f-s__left-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 141px;
 }
 
 .btn {
   display: inline-block;
   padding: 20px 30px;
   border: 1px solid var(--ui-color);
+  font-family: 'Fira Sans Bold';
   font-size: 1.125rem;
   line-height: 140%;
   color: #000000;
@@ -202,26 +209,34 @@ img {
   text-decoration: none;
 }
 
-.first-section__left-content-information {
-  margin-top: 40px;
-  margin-right: 363px;
+.f-s__left-content-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-right: 400px;
   color: #FFFFFF;
 }
 
-.first-section__ts-cottages {
-  font-weight: 700;
+.f-s__h3 {
+  font-family: 'Fira Sans Bold';
   font-size: 2rem;
   margin-bottom: 0;
 }
 
-.first-section__big-number {
+.f-s__row-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.f-s__big-number {
   font-size: 8rem;
   font-weight: 400;
 }
 
-.first-section__left-content-text {
+.f-s__left-content-text {
+  font-family: 'Fira Sans Regular';
   list-style: none;
-  margin-top: 23px;
   margin-left: 23px;
   padding-left: 0;
   width: 116px;
@@ -229,12 +244,16 @@ img {
   font-size: 1.25rem;
 }
 
-.first-section__right-content {
-  margin-left: 36px;
+.f-s__right-content-text {
+  font-family: 'Fira Sans Bold';
+  font-size: 1rem;
+}
+
+.f-s__right-content {
   color: #FFFFFF;
 }
 
-.first-section__right-content-fat {
+.f-s__right-content-fat {
   font-weight: 700;
   font-size: 1rem;
 }
@@ -257,7 +276,7 @@ img {
 
 
 
-.about-project__container {
+.a-p__container {
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
@@ -266,55 +285,55 @@ img {
   overflow: hidden;
 }
 
-.about-project__left-content {
+.a-p__left-content {
   display: flex;
   flex-direction: column;
   max-width: 680px;
   margin-top: 103px;
 }
 
-.about-project__h2 {
+.a-p__h2 {
   margin-top: 0;
   margin-bottom: 60px;
 }
 
-.about-project__subcontent {
+.a-p__subcontent {
   margin: 0;
 }
 
-.about-project__bottom-subcontent {
+.a-p__bottom-subcontent {
   margin-top: 0;
   margin-bottom: 51px;
 }
 
-.about-project__h3 {
+.a-p__h3 {
   margin-bottom: 0;
 }
 
-.about-project__menu {
+.a-p__menu {
   margin-top: 0;
   padding-left: 20px;
   margin-bottom: 0;
 }
 
-.about-project__company-mission-h3 {
+.a-p__company-mission-h3 {
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-.about-project__right-content {
+.a-p__right-content {
   display: flex;
   flex-direction: column;
   margin-top: 134px;
   margin-left: 58px;
 }
 
-.about-project__images {
+.a-p__images {
   display: flex;
   flex-direction: column;
 }
 
-.about-project__image {
+.a-p__image {
   position: relative;
 }
 
@@ -352,15 +371,15 @@ img {
   z-index: 0;
 }
 
-.about-project__purpose {
+.a-p__purpose {
   margin-top: -90px;
 }
 
-.about-project__purpose-h3 {
+.a-p__purpose-h3 {
   margin-bottom: 20px;
 }
 
-.about-project__bg {
+.a-p__bg {
   position: absolute;
   font-weight: 700;
   font-size: 15.625rem;
@@ -776,7 +795,7 @@ img {
 .reasons__bg {
   position: absolute;
   font-weight: 700;
-  font-size: 200px;
+  font-size: 12.5rem;
   font-style: normal;
   opacity: 0.05;
   margin-top: -720px;
@@ -1054,8 +1073,6 @@ img {
   margin-bottom: 10px;
 }
 
-.contacts__icons {}
-
 .contacts__link {
   margin-left: 10px;
   color: #333333;
@@ -1104,4 +1121,70 @@ img {
   margin-top: 22px;
   margin-bottom: 28px;
   color: #842231;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1179.98px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header__logo {
+    width: 124px;
+    height: 111px;
+  }
+  .nav__menu {
+    margin-top: 10px;
+    gap: 40px;
+  }
+
+  .first-section__container {
+    max-width: 960px;
+    margin-top: 94px;
+  }
+
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 16px 24px;
+  }
+
+  .f-s__h3 {
+    font-size: 1.9rem;
+  }
+
+  .f-s__left-content-information {
+    margin-right: 250px;
+  }
+
+  .f-s__big-number {
+    font-size: 6.5rem;
+  }
+
+  .f-s__left-content-text {
+    font-size: 1rem;
+  }
+
+  .f-s__right-content-text {
+    font-size: 0.81rem;
+  }
 }
