@@ -98,6 +98,8 @@ img {
 
 .first-screen__section {
   position: relative;
+  display: flex;
+  flex-direction: column;
   background-image: url(/assets/img/Секция\ header/Фон.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -121,8 +123,8 @@ img {
 .header__row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0;
-  gap: 247px;
 }
 
 .header__nav-social-contacts {
@@ -1054,8 +1056,6 @@ img {
   margin-bottom: 10px;
 }
 
-.contacts__icons {}
-
 .contacts__link {
   margin-left: 10px;
   color: #333333;
@@ -1104,4 +1104,50 @@ img {
   margin-top: 22px;
   margin-bottom: 28px;
   color: #842231;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1179.98px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header__logo {
+    width: 124px;
+    height: 111px;
+  }
+  .nav__menu {
+    margin-top: 10px;
+    gap: 15px;
+  }
+
+  .first-section__container {
+    max-width: 960px;
+    margin-top: 94px;
+  }
+
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .first-section__left-content-information {
+    margin-right: 300px;
+  }
 }
