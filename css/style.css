@@ -153,7 +153,7 @@ img {
   order: 1;
 }
 
-.header__icon-phone:hover path {
+.header__phone-link:hover path {
   fill: var(--links-color);
 }
 
@@ -230,7 +230,6 @@ img {
   flex-direction: column;
   justify-content: start;
   margin-top: 32px;
-  margin-right: 400px;
   color: #FFFFFF;
 }
 
@@ -253,11 +252,9 @@ img {
 }
 
 .f-s__left-content-text {
+  margin-right: 10px;
+  margin-left: 10px;
   font-family: 'Fira Sans Regular';
-  list-style: none;
-  margin-left: 23px;
-  padding-left: 0;
-  width: 116px;
   font-weight: 400;
   font-size: 1.25rem;
 }
@@ -448,8 +445,8 @@ img {
   margin-top: 182px;
 }
 
-.cottages__svg:hover {
-
+.cottages__svg:hover circle {
+  fill: var(--links-color);
 }
 
 .cottages__right-arrow {
@@ -604,6 +601,10 @@ img {
 
 .benefits__container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
   max-width: 1440px;
   width: 100%;
   padding: 0 20px;
@@ -621,9 +622,6 @@ img {
 
 .benefits__content-block {
   margin-left: 150px;
-  padding-top: 60px;
-  gap: 40px;
-  width: 832px;
 }
 
 .benefits__h2 {
@@ -657,7 +655,6 @@ img {
 }
 
 .benefits__picture {
-  margin-top: 33px;
   margin-left: 150px;
 }
 
@@ -665,7 +662,6 @@ img {
   display: flex;
   flex-direction: row;
   margin-left: 150px;
-  margin-top: 50px;
 }
 
 .benefits__icon-4__text {
@@ -681,7 +677,6 @@ img {
 .benefits__last-row-content {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
 }
 
 .benefits__bg-container {
@@ -689,7 +684,7 @@ img {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  margin-top: -1255px;
+  margin-top: -1235px;
   z-index: 0;
 }
 
@@ -1171,9 +1166,27 @@ img {
     width: 100px;
     height: 100px;
   }
+
+  .header__whatsapp-icon {
+    width: 20px;
+    height: 15px;
+  }
+
+  .header__icon-phone {
+    width: 15px;
+    height: 15px;
+  }
+
+  .tel__number {
+    font-size: 1rem;
+  }
+
   .nav__menu {
     margin-top: 10px;
-    gap: 40px;
+  }
+
+  .submenu__link {
+    font-size: 0.75rem;
   }
 
   .first-section__container {
@@ -1195,7 +1208,7 @@ img {
   }
 
   .f-s__left-content-information {
-    margin-right: 250px;
+    margin-right: 100px;
   }
 
   .f-s__big-number {
@@ -1207,6 +1220,11 @@ img {
   }
 
   .f-s__right-content-text {
-    font-size: 0.81rem;
+    font-size: 0.75rem;
+  }
+
+  .f-s__right-content-fat {
+    font-weight: 700;
+    font-size: 0.75rem;
   }
 }
