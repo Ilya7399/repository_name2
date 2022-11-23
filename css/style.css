@@ -25,6 +25,7 @@
 }
 
 :root {
+  --links-color : orange;
   --ui-color: #DBA069;
   --text-color: #333333;
 }
@@ -39,6 +40,10 @@ html {
 
 body {
   font-family: 'Fira Sans Light', Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color: var(--links-color);
 }
 
 a {
@@ -131,19 +136,30 @@ img {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  gap: 35px;
 }
 
 .header__social {
+  margin-right: 35px;
   order: 2;
 }
 
-.header__icon-phone {
+.header__social:hover path {
+  fill: var(--links-color);
+}
+
+.header__tel-contacts {
+  cursor: pointer;
   align-items: center;
   order: 1;
 }
 
+.header__icon-phone:hover path {
+  fill: var(--links-color);
+}
+
 .tel__number {
+  font-family: 'Fira Sans Regular';
+  font-size: 1.25rem;
   letter-spacing: 0.04em;
   color: #FFFFFF;
   margin-left: 10px;
@@ -213,6 +229,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: start;
+  margin-top: 32px;
   margin-right: 400px;
   color: #FFFFFF;
 }
@@ -220,6 +237,7 @@ img {
 .f-s__h3 {
   font-family: 'Fira Sans Bold';
   font-size: 2rem;
+  margin: 0;
   margin-bottom: 0;
 }
 
@@ -288,7 +306,6 @@ img {
 .a-p__left-content {
   display: flex;
   flex-direction: column;
-  max-width: 680px;
   margin-top: 103px;
 }
 
@@ -429,6 +446,10 @@ img {
 
 .cottages__left-arrow {
   margin-top: 182px;
+}
+
+.cottages__svg:hover {
+
 }
 
 .cottages__right-arrow {
@@ -1147,8 +1168,8 @@ img {
   }
 
   .header__logo {
-    width: 124px;
-    height: 111px;
+    width: 100px;
+    height: 100px;
   }
   .nav__menu {
     margin-top: 10px;
@@ -1161,15 +1182,16 @@ img {
   }
 
   .h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .btn {
-    padding: 16px 24px;
+    padding: 10px 20px;
+    font-size: 0.7rem;
   }
 
   .f-s__h3 {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 
   .f-s__left-content-information {
