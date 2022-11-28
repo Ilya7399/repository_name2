@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Fira Sans Bold';
-  src: url(../assets/fonts/FiraSans-Bold.ttf) format('ttf'),
-    url(../assets/fonts/FiraSans-BoldItalic.ttf) format('ttf');
+  src: url(../assets/fonts/FiraSans-Bold.woff2) format('woff2'),
+    url(../assets/fonts/FiraSans-Bold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -9,7 +9,8 @@
 
 @font-face {
   font-family: 'Fira Sans Regular';
-  src: url(../assets/fonts/FiraSans-Regular.ttf) format('ttf');
+  src: url(../assets/fonts/FiraSans-Regular.woff2) format('woff2'),
+    url(../assets/fonts/FiraSans-Regular.woff) format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -17,8 +18,8 @@
 
 @font-face {
   font-family: 'Fira Sans Light';
-  src: url(../assets/fonts/FiraSans-Light.ttf) format('ttf'),
-    url(../assets/fonts/FiraSans-LightItalic.ttf) format('ttf');
+  src: url(../assets/fonts/FiraSans-Light.woff2) format('woff2'),
+    url(../assets/fonts/FiraSans-Light.woff) format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -209,7 +210,6 @@ figure {
   padding: 20px 30px;
   border: 1px solid var(--ui-color);
   font-family: 'Fira Sans Bold';
-  font-weight: 700;
   font-size: 1.125rem;
   line-height: 140%;
   color: #000000;
@@ -241,19 +241,17 @@ figure {
 
 .f-s__big-number {
   font-size: 8rem;
-  font-weight: 400;
 }
 
 .f-s__left-content-text {
   margin-right: 10px;
   margin-left: 10px;
-  font-family: 'Fira Sans Regular';
-  font-weight: 400;
+  font-family: 'Fira Sans Light';
   font-size: 1.25rem;
 }
 
 .f-s__right-content-text {
-  font-family: 'Fira Sans Bold';
+  font-family: 'Fira Sans Light';
   font-size: 1rem;
 }
 
@@ -262,7 +260,7 @@ figure {
 }
 
 .f-s__right-content-fat {
-  font-weight: 700;
+  font-family: 'Fira Sans Bold';
   font-size: 1rem;
 }
 
@@ -373,11 +371,11 @@ figure {
 }
 
 .a-p__bg {
+  font-family: 'Fira Sans Bold';
   position: absolute;
-  font-weight: 700;
   font-size: 15.625rem;
   opacity: 0.05;
-  margin-top: -5px;
+  margin-top: -10px;
 }
 
 
@@ -470,7 +468,7 @@ figure {
 
 .cottages__figure-text {
   margin: 0;
-  font-weight: 700;
+  font-family: 'Fira Sans Bold';
   font-size: 2rem;
   margin-bottom: 10px;
 }
@@ -552,8 +550,8 @@ figure {
 }
 
 .location__bg {
+  font-family: 'Fira Sans Bold';
   position: absolute;
-  font-weight: 700;
   font-size: 17.9375rem;
   opacity: 0.05;
   margin-top: -45px;
@@ -581,7 +579,6 @@ figure {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 50px;
   max-width: 1440px;
   width: 100%;
@@ -600,10 +597,6 @@ figure {
 
 .benefits__content-block {
   margin-left: 150px;
-}
-
-.benefits__h2 {
-  width: 624px;
 }
 
 .benefits__first-row-content {
@@ -629,7 +622,7 @@ figure {
 }
 
 .benefits__icon-4 {
-  margin-left: -165px;
+  margin-left: -148px;
 }
 
 .benefits__picture {
@@ -782,16 +775,19 @@ figure {
 }
 
 .reasons__text {
-  font-weight: 300;
+  font-family: 'Fira Sans Light';
   font-size: 1.125rem;
   margin: 0;
 }
 
+.reasons-margin-text {
+  margin-bottom: 20px;
+}
+
 .reasons__bg {
+  font-family: 'Fira Sans Bold';
   position: absolute;
-  font-weight: 700;
   font-size: 12.5rem;
-  font-style: normal;
   opacity: 0.05;
   margin-top: -720px;
   margin-left: -150px;
@@ -850,8 +846,8 @@ figure {
 }
 
 .technology__bg {
+  font-family: 'Fira Sans Bold';
   position: absolute;
-  font-weight: 700;
   font-size: 14.5625rem;
   opacity: 0.05;
   margin-top: -1900px;
@@ -883,14 +879,12 @@ figure {
 }
 
 .presentation__h2 {
-  font-weight: 700;
   font-size: 2.25rem;
   margin: 70px auto 12px;
   width: 390px;
 }
 
 .presentation__text {
-  font-weight: 400;
   font-size: 1.3125rem;
   margin-left: 380px;
   margin-bottom: 36px;
@@ -1005,7 +999,6 @@ figure {
   font-family: 'Fira Sans Bold';
   width: 872px;
   height: 312px;
-  font-weight: 700;
   font-size: 16.25rem;
   opacity: 0.05;
   margin-top: -470px;
@@ -1424,5 +1417,45 @@ figure {
   .location__bg {
     font-size: 14.6rem;
     margin-top: -37px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .benefits__container {
+    max-width: 1220px;
+  }
+
+  .benefits__content-block {
+    margin-left: 120px;
+  }
+
+  .benefits__bg-container {
+    max-width: 1220px;
+    margin-top: -1110px;
+  }
+
+  .benefits__bg {
+    width: 743px;
+  }
+
+  .benefits__bg-symbol {
+    width: 419px;
+    height: 440px;
   }
 }
