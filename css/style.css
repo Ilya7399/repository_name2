@@ -58,6 +58,18 @@ figure {
   margin: 0;
 }
 
+path {
+  transition: 0.3s ease-in-out;
+}
+
+circle {
+  transition: 0.3s ease-in-out;
+}
+
+.icon-link:hover path {
+  fill: var(--hover-links-color);
+}
+
 .icon {
   width: 56px;
   height: 56px;
@@ -128,7 +140,7 @@ figure {
   flex-direction: column;
 }
 
-.header__social-contacts {
+.social-phone {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -139,24 +151,10 @@ figure {
   order: 2;
 }
 
-path {
-  transition: 0.3s ease-in-out;
-}
-
-.header__whatsapp-icon:hover path {
-  background: transparent;
-  fill: var(--hover-links-color);
-}
-
-.header__tel-contacts {
+.tel-contacts {
   cursor: pointer;
   align-items: center;
   order: 1;
-}
-
-.header__phone-link:hover path {
-  background: transparent;
-  fill: var(--hover-links-color);
 }
 
 .tel__number {
@@ -210,7 +208,7 @@ path {
   margin-top: 115px;
 }
 
-.f-s__left-content {
+.left-content {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -231,11 +229,7 @@ path {
   transition: 0.3s ease-in-out;
 }
 
-.btn:hover {
-  background: transparent;
-}
-
-.f-s__left-content-information {
+.left-content__information {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -250,33 +244,33 @@ path {
   margin-bottom: 0;
 }
 
-.f-s__row-content {
+.left__row-text {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 
-.f-s__big-number {
+.big-number {
   font-size: 8rem;
 }
 
-.f-s__left-content-text {
+.left-content__text {
   margin-right: 10px;
   margin-left: 10px;
   font-family: 'Fira Sans Light';
   font-size: 1.25rem;
 }
 
-.f-s__right-content-text {
+.right-content {
+  color: var(--icon-text-links-color);
+}
+
+.right-content__text {
   font-family: 'Fira Sans Light';
   font-size: 1rem;
 }
 
-.f-s__right-content {
-  color: var(--icon-text-links-color);
-}
-
-.f-s__right-content-fat {
+.right-content__fat {
   font-family: 'Fira Sans Bold';
   font-size: 1rem;
 }
@@ -318,11 +312,11 @@ path {
   margin-bottom: 60px;
 }
 
-.a-p__subcontent {
+.a-p__text {
   margin: 0;
 }
 
-.a-p__bottom-subcontent {
+.a-p__bottom-text {
   margin-top: 0;
   margin-bottom: 51px;
 }
@@ -440,13 +434,8 @@ path {
   margin-top: 210px;
 }
 
-.cottages__svg circle {
-  transition: 0.3s ease-in-out;
-}
-
-.cottages__svg:hover circle {
+.cottages__arrows:hover circle {
   fill: var(--hover-links-color);
-  background: transparent;
 }
 
 .cottages__right-arrow {
@@ -681,7 +670,16 @@ path {
   z-index: 0;
 }
 
+.benefits__bg {
+  position: relative;
+  width: 1114px;
+  height: 1282px;
+  background-color: #F9F4F4;
+  z-index: 0;
+}
+
 .benefits__bg-symbol {
+  position: relative;
   margin-top: -630px;
   z-index: 1;
 }
@@ -963,7 +961,6 @@ path {
 }
 
 .presentation__button-send:hover {
-  background: transparent;
   color: red;
 }
 
@@ -1098,6 +1095,10 @@ path {
   margin-bottom: 10px;
 }
 
+.contacts__icon-mail:hover path {
+  stroke: var(--hover-links-color);
+}
+
 .contacts__link {
   margin-left: 10px;
   color: #333333;
@@ -1212,7 +1213,7 @@ path {
     margin-top: 94px;
   }
 
-  .f-s__left-content {
+  .left-content {
     margin-bottom: 50px;
   }
 
@@ -1226,30 +1227,30 @@ path {
     font-size: 0.9rem;
   }
 
-  .f-s__h3 {
-    font-size: 1.6rem;
-  }
-
-  .f-s__left-content-information {
+  .left-content__information {
     margin-top: 33px;
     margin-right: 100px;
   }
 
-  .f-s__big-number {
+  .f-s__h3 {
+    font-size: 1.6rem;
+  }
+
+  .big-number {
     font-size: 6.5rem;
   }
 
-  .f-s__left-content-text {
+  .left-content__text {
     margin-right: 8px;
     margin-left: 8px;
     font-size: 1rem;
   }
 
-  .f-s__right-content-text {
+  .right-content__text {
     font-size: 0.8rem;
   }
 
-  .f-s__right-content-fat {
+  .right-content__fat {
     font-weight: 700;
     font-size: 0.75rem;
   }
@@ -1381,7 +1382,7 @@ path {
     margin-top: 170px;
   }
 
-  .cottages__svg {
+  .cottages__arrows {
     width: 40px;
     height: 40px;
   }
@@ -1516,6 +1517,7 @@ path {
 
   .benefits__bg {
     width: 944px;
+    height: 1086px;
   }
 
   .benefits__bg-symbol {
