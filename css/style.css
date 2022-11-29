@@ -26,9 +26,10 @@
 }
 
 :root {
-  --links-color: orange;
+  --hover-links-color: orange;
   --ui-color: #DBA069;
-  --text-color: #333333;
+  --red-rectangle-color: #842231;
+  --icon-text-links-color: #FFFFFF;
 }
 
 * {
@@ -44,7 +45,7 @@ body {
 }
 
 a:hover {
-  color: var(--links-color);
+  color: var(--hover-links-color);
   background: transparent;
 }
 
@@ -69,7 +70,7 @@ figure {
 .h1 {
   font-family: 'Fira Sans Bold';
   font-size: 2.375rem;
-  color: #FFFFFF;
+  color: var(--icon-text-links-color);
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -144,7 +145,7 @@ path {
 
 .header__whatsapp-icon:hover path {
   background: transparent;
-  fill: var(--links-color);
+  fill: var(--hover-links-color);
 }
 
 .header__tel-contacts {
@@ -155,14 +156,14 @@ path {
 
 .header__phone-link:hover path {
   background: transparent;
-  fill: var(--links-color);
+  fill: var(--hover-links-color);
 }
 
 .tel__number {
   font-family: 'Fira Sans Regular';
   font-size: 1.25rem;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: var(--icon-text-links-color);
   margin-left: 10px;
 }
 
@@ -186,7 +187,7 @@ path {
   font-family: 'Fira Sans Regular';
   font-size: 1rem;
   text-decoration: none;
-  color: #FFFFFF;
+  color: var(--icon-text-links-color);
 }
 
 
@@ -239,7 +240,7 @@ path {
   flex-direction: column;
   justify-content: start;
   margin-top: 40px;
-  color: #FFFFFF;
+  color: var(--icon-text-links-color);
 }
 
 .f-s__h3 {
@@ -272,7 +273,7 @@ path {
 }
 
 .f-s__right-content {
-  color: #FFFFFF;
+  color: var(--icon-text-links-color);
 }
 
 .f-s__right-content-fat {
@@ -371,6 +372,7 @@ path {
   margin-left: 42px;
   order: 2;
   z-index: 2;
+  background-color: var(--red-rectangle-color);
 }
 
 .points {
@@ -443,7 +445,7 @@ path {
 }
 
 .cottages__svg:hover circle {
-  fill: var(--links-color);
+  fill: var(--hover-links-color);
   background: transparent;
 }
 
@@ -559,6 +561,7 @@ path {
   margin-top: 42px;
   margin-left: -540px;
   z-index: 1;
+  background-color: var(--red-rectangle-color);
 }
 
 .group__18 {
@@ -735,13 +738,14 @@ path {
   margin-left: -42px;
   z-index: 1;
   order: 2;
+  background-color: var(--red-rectangle-color);
 }
 
 .group__19 {
   max-width: 100%;
   width: 873px;
   height: 397px;
-  margin-top: -365px;
+  margin-top: -360px;
   margin-left: -130px;
   z-index: 0;
   order: 3;
@@ -954,7 +958,7 @@ path {
   height: 86px;
   font-weight: 500;
   font-size: 1.125rem;
-  color: #FFFFFF;
+  color: var(--icon-text-links-color);
   transition: 0.3s ease-in-out;
 }
 
@@ -1130,10 +1134,6 @@ path {
   justify-content: space-between;
   font-family: 'Fira Sans Light';
   font-size: 1.25rem;
-}
-
-.footer__links {
-  color: #333333;
 }
 
 .final-link {
