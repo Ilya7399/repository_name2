@@ -639,14 +639,13 @@ path {
 .benefits__icon-3__text {
   padding-left: 15px;
   margin-top: 0;
-  width: 550px;
 }
 
 .benefits__icon-4 {
-  margin-left: -148px;
+  margin-left: 80px;
 }
 
-.benefits__picture {
+.benefits__figure-picture {
   margin-left: 150px;
 }
 
@@ -659,7 +658,6 @@ path {
 .benefits__icon-4__text {
   padding-left: 15px;
   margin-top: 0;
-  width: 300px;
 }
 
 .benefits__icon-6-7 {
@@ -1478,23 +1476,49 @@ path {
 
   .benefits__container {
     max-width: 1220px;
+    gap: 42px;
+  }
+
+  .icon {
+    width: 46px;
+    height: 46px;
   }
 
   .benefits__content-block {
     margin-left: 120px;
   }
 
+  .benefits__icon-4 {
+    margin-left: 105px;
+  }
+
+  .benefits__figure-picture {
+    margin-left: 120px;
+  }
+
+  .benefits__picture {
+    width: 763px;
+    height: 463px;
+  }
+
+  .benefits__third-row-content {
+    margin-left: 120px;
+  }
+
+  .benefits__icon-6-7 {
+    margin-left: 120px;
+  }
+
   .benefits__bg-container {
     max-width: 1220px;
-    margin-top: -1110px;
+    margin-top: -1050px;
   }
 
   .benefits__bg {
-    width: 743px;
+    width: 944px;
   }
 
   .benefits__bg-symbol {
-    width: 419px;
-    height: 440px;
+    height: 530px;
   }
 }

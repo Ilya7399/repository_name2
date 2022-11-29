@@ -1,625 +1,858 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Элитный коттеджный городок</title>
 
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Элитный коттеджный городок</title>
-
-  <!-- Normalize CSS -->
-  <link rel="stylesheet" href="/css/normalize.css">
-  <!-- Styles -->
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-
-
-
-<body>
-
-
-
-
-
-  <section class="first-screen__section">
-
-
-    <header class="header" id="header">
-      <div class="container">
-        <div class="header__row">
-          <a href="/">
-            <img class="header__logo logo" src="/assets/img/Секция header/Лого.png" alt="Логотип компании NURA ELITE">
-          </a>
-          <div class="header__links">
-            <div class="header__social-contacts">
-              <a class="header__social" href="#">
-                <svg class="header__whatsapp-icon" width="20" height="19" viewBox="0 0 20 19" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M17.0865 2.76114C15.2064 0.981431 12.706 0.000942476 10.042 0C4.55332 0 0.0857299 4.22323 0.0837362 9.41439C0.0830716 11.0738 0.541627 12.6936 1.41288 14.1211L0 19L5.27904 17.6909C6.73346 18.4411 8.3713 18.8363 10.0377 18.837H10.0417C15.5301 18.837 19.9977 14.6131 20 9.42225C20.0017 6.90615 18.9669 4.54085 17.0865 2.76114ZM10.0424 17.2467H10.039C8.55372 17.2461 7.09698 16.8687 5.82631 16.1559L5.52393 15.9863L2.39113 16.7632L3.22717 13.8754L3.03045 13.5792C2.20206 12.3332 1.76444 10.8934 1.76511 9.41471C1.76677 5.10005 5.48007 1.58996 10.0454 1.58996C12.2561 1.59058 14.3342 2.40583 15.8969 3.88489C17.4597 5.36394 18.3196 7.32995 18.319 9.42099C18.3173 13.7363 14.6043 17.2467 10.0424 17.2467Z"
-                    fill="#FFFFFF" />
-                  <path
-                    d="M14.5824 11.3859C14.3335 11.2681 13.1103 10.6991 12.8821 10.6206C12.6541 10.5421 12.488 10.5028 12.3222 10.7384C12.1563 10.974 11.6795 11.5037 11.5343 11.6608C11.3891 11.8178 11.2439 11.8373 10.9953 11.7195C10.7465 11.6017 9.94464 11.3535 8.9943 10.5518C8.25463 9.92787 7.7552 9.15755 7.60999 8.92225C7.46478 8.68663 7.59438 8.5594 7.71898 8.44221C7.83096 8.33666 7.96787 8.16733 8.09214 8.03004C8.21642 7.89275 8.25795 7.79442 8.34103 7.63766C8.4241 7.48058 8.38256 7.34329 8.32042 7.22548C8.25829 7.10767 7.76052 5.94968 7.55317 5.47876C7.35114 5.02008 7.14612 5.08229 6.99327 5.07506C6.84839 5.06815 6.68225 5.06689 6.51644 5.06689C6.35062 5.06689 6.08114 5.12564 5.85286 5.36126C5.62491 5.59688 4.98193 6.16582 4.98193 7.32381C4.98193 8.4818 5.87346 9.60052 5.99807 9.75728C6.12234 9.91436 7.75255 12.2903 10.2487 13.3095C10.8425 13.552 11.3057 13.6965 11.6672 13.8049C12.2633 13.984 12.8056 13.9588 13.2346 13.8982C13.7128 13.8307 14.7067 13.3293 14.914 12.7798C15.1213 12.2303 15.1213 11.7591 15.0592 11.6611C14.9971 11.5628 14.8313 11.5037 14.5824 11.3859Z"
-                    fill="#FFFFFF" />
-                </svg>
-              </a>
-              <div class="header__tel-contacts">
-                <a class="header__phone-link" href="#">
-                  <svg class="header__icon-phone" width="18" height="18" viewBox="0 0 18 18" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+  <body>
+    <section class="first-screen__section">
+      <header class="header" id="header">
+        <div class="container">
+          <div class="header__row">
+            <a href="/">
+              <img
+                class="header__logo logo"
+                src="/assets/img/Секция header/Лого.jpg"
+                alt="Логотип компании NURA ELITE"
+              />
+            </a>
+            <div class="header__links">
+              <div class="header__social-contacts">
+                <a class="header__social" href="#">
+                  <svg
+                    class="header__whatsapp-icon"
+                    width="20"
+                    height="19"
+                    viewBox="0 0 20 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
-                      d="M16.1291 17.4858L16.1477 17.4561L17.9995 13.6972L12.5901 9.64011L10.1011 11.5067C9.16251 11.4508 8.27693 11.0528 7.61204 10.3879C6.94716 9.72299 6.54912 8.83741 6.49328 7.89877L8.35985 5.4099L4.30284 0.000487683L0.575384 1.83693L0.543913 1.85239L0.514223 1.87101C0.356314 1.96901 0.226116 2.1058 0.136022 2.26835C0.0459288 2.4309 -0.00105869 2.6138 -0.000473145 2.79965L-0.000473187 3.76957C-0.000473269 5.63841 0.36762 7.48894 1.08279 9.21551C1.79797 10.9421 2.84621 12.5109 4.16768 13.8324C5.48914 15.1538 7.05795 16.2021 8.78453 16.9172C10.5111 17.6324 12.3616 18.0005 14.2305 18.0005L15.2004 18.0005C15.3863 18.0011 15.5692 17.9541 15.7317 17.864C15.8943 17.7739 16.0311 17.6437 16.1291 17.4858ZM14.2305 16.6114C7.14944 16.6114 1.3886 10.8506 1.3886 3.76957L1.3886 2.98474L3.88299 1.75602L6.62359 5.41016L5.09782 7.44459L5.09782 7.67609C5.09937 9.06174 5.65051 10.3902 6.63031 11.37C7.61012 12.3498 8.93857 12.9009 10.3242 12.9025L10.5557 12.9025L12.5901 11.3767L16.244 14.117L15.0151 16.6114L14.2305 16.6114Z"
-                      fill="#FFFFFF" />
+                      d="M17.0865 2.76114C15.2064 0.981431 12.706 0.000942476 10.042 0C4.55332 0 0.0857299 4.22323 0.0837362 9.41439C0.0830716 11.0738 0.541627 12.6936 1.41288 14.1211L0 19L5.27904 17.6909C6.73346 18.4411 8.3713 18.8363 10.0377 18.837H10.0417C15.5301 18.837 19.9977 14.6131 20 9.42225C20.0017 6.90615 18.9669 4.54085 17.0865 2.76114ZM10.0424 17.2467H10.039C8.55372 17.2461 7.09698 16.8687 5.82631 16.1559L5.52393 15.9863L2.39113 16.7632L3.22717 13.8754L3.03045 13.5792C2.20206 12.3332 1.76444 10.8934 1.76511 9.41471C1.76677 5.10005 5.48007 1.58996 10.0454 1.58996C12.2561 1.59058 14.3342 2.40583 15.8969 3.88489C17.4597 5.36394 18.3196 7.32995 18.319 9.42099C18.3173 13.7363 14.6043 17.2467 10.0424 17.2467Z"
+                      fill="#FFFFFF"
+                    />
+                    <path
+                      d="M14.5824 11.3859C14.3335 11.2681 13.1103 10.6991 12.8821 10.6206C12.6541 10.5421 12.488 10.5028 12.3222 10.7384C12.1563 10.974 11.6795 11.5037 11.5343 11.6608C11.3891 11.8178 11.2439 11.8373 10.9953 11.7195C10.7465 11.6017 9.94464 11.3535 8.9943 10.5518C8.25463 9.92787 7.7552 9.15755 7.60999 8.92225C7.46478 8.68663 7.59438 8.5594 7.71898 8.44221C7.83096 8.33666 7.96787 8.16733 8.09214 8.03004C8.21642 7.89275 8.25795 7.79442 8.34103 7.63766C8.4241 7.48058 8.38256 7.34329 8.32042 7.22548C8.25829 7.10767 7.76052 5.94968 7.55317 5.47876C7.35114 5.02008 7.14612 5.08229 6.99327 5.07506C6.84839 5.06815 6.68225 5.06689 6.51644 5.06689C6.35062 5.06689 6.08114 5.12564 5.85286 5.36126C5.62491 5.59688 4.98193 6.16582 4.98193 7.32381C4.98193 8.4818 5.87346 9.60052 5.99807 9.75728C6.12234 9.91436 7.75255 12.2903 10.2487 13.3095C10.8425 13.552 11.3057 13.6965 11.6672 13.8049C12.2633 13.984 12.8056 13.9588 13.2346 13.8982C13.7128 13.8307 14.7067 13.3293 14.914 12.7798C15.1213 12.2303 15.1213 11.7591 15.0592 11.6611C14.9971 11.5628 14.8313 11.5037 14.5824 11.3859Z"
+                      fill="#FFFFFF"
+                    />
                   </svg>
                 </a>
-                <a class="tel__number" href="tel:+77000011888">+7 700 001 18 88</a>
+                <div class="header__tel-contacts">
+                  <a class="header__phone-link" href="#">
+                    <svg
+                      class="header__icon-phone"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 18 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.1291 17.4858L16.1477 17.4561L17.9995 13.6972L12.5901 9.64011L10.1011 11.5067C9.16251 11.4508 8.27693 11.0528 7.61204 10.3879C6.94716 9.72299 6.54912 8.83741 6.49328 7.89877L8.35985 5.4099L4.30284 0.000487683L0.575384 1.83693L0.543913 1.85239L0.514223 1.87101C0.356314 1.96901 0.226116 2.1058 0.136022 2.26835C0.0459288 2.4309 -0.00105869 2.6138 -0.000473145 2.79965L-0.000473187 3.76957C-0.000473269 5.63841 0.36762 7.48894 1.08279 9.21551C1.79797 10.9421 2.84621 12.5109 4.16768 13.8324C5.48914 15.1538 7.05795 16.2021 8.78453 16.9172C10.5111 17.6324 12.3616 18.0005 14.2305 18.0005L15.2004 18.0005C15.3863 18.0011 15.5692 17.9541 15.7317 17.864C15.8943 17.7739 16.0311 17.6437 16.1291 17.4858ZM14.2305 16.6114C7.14944 16.6114 1.3886 10.8506 1.3886 3.76957L1.3886 2.98474L3.88299 1.75602L6.62359 5.41016L5.09782 7.44459L5.09782 7.67609C5.09937 9.06174 5.65051 10.3902 6.63031 11.37C7.61012 12.3498 8.93857 12.9009 10.3242 12.9025L10.5557 12.9025L12.5901 11.3767L16.244 14.117L15.0151 16.6114L14.2305 16.6114Z"
+                        fill="#FFFFFF"
+                      />
+                    </svg>
+                  </a>
+                  <a class="tel__number" href="tel:+77000011888"
+                    >+7 700 001 18 88</a
+                  >
+                </div>
+              </div>
+              <nav class="header__navigation nav">
+                <ul class="nav__menu menu list-reset">
+                  <li class="submenu__item">
+                    <a class="submenu__link" href="#">О проекте</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link" href="#">Локация</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link" href="#">Преимущества</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link" href="#">Почему мы?</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link" href="#">Способы оплаты</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link" href="#">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="first-section__container">
+        <!-- first-section = f-s -->
+        <div class="f-s__left-content">
+          <h1 class="h1">Элитный коттеджный городок в г. Нур-Султан</h1>
+          <a class="btn" href="#">Скачать презентацию</a>
+          <div class="f-s__left-content-information">
+            <h3 class="f-s__h3">36 коттеджей</h3>
+            <div class="f-s__row-content">
+              <strong class="f-s__big-number">3</strong>
+              <p class="f-s__left-content-text">
+                коттеджа <br />
+                368 м<sup>2</sup> <br />
+                на 10 сотках
+              </p>
+              <strong class="f-s__big-number">33</strong>
+              <p class="f-s__left-content-text">
+                коттеджа <br />
+                179 м<sup>2</sup> <br />
+                на 5 сотках
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="f-s__right-content">
+          <p class="f-s__right-content-text">
+            <strong class="f-s__right-content-fat">Строительные работы</strong>
+            начались в <br />
+            сентябре 2021 года.
+          </p>
+          <p class="f-s__right-content-text">
+            <strong class="f-s__right-content-fat">Срок сдачи</strong> коттеджей
+            - I квартал 2022 <br />
+            года.
+          </p>
+          <p class="f-s__right-content-text">
+            <strong class="f-s__right-content-fat">Срок сдачи</strong> всего
+            коттеджнего городка <br />
+            - II квартал 2022 года.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="about-project__section">
+        <!-- about-project = a-p -->
+        <div class="a-p__container">
+          <div class="a-p__left-content">
+            <h2 class="a-p__h2 h2">О проекте</h2>
+            <p class="a-p__subcontent text">
+              Элитный закрытый коттеджный городок в г. Нур-Султан, состоящий из:
+            </p>
+            <article>
+              <h3 class="a-p__first-h3 a-p__h3 h3">36 коттеджей:</h3>
+              <ul class="a-p__menu">
+                <li class="a-p__subcontent text">
+                  368 м<sup>2</sup> на 10 сотках
+                </li>
+                <li class="a-p__subcontent text">
+                  179 м<sup>2</sup> на 5 сотках
+                </li>
+              </ul>
+            </article>
+            <article>
+              <h3 class="a-p__company-mission-h3 a-p__h3 h3">О компании</h3>
+              <p class="a-p__subcontent text">
+                “MM Group” Группа Строительных Компании – современная и <br />
+                динамично развивающаяся группа компаний, оказывающая <br />
+                широкий спектр услуг в строительном бизнесе от <br />
+                проектирования до сдачи объектов под ключ. Свою деятельность
+                <br />
+                в строительном бизнесе начала осуществлять с 2013 года и <br />
+                прочно зарекомендовала себя надежной Казахстанской <br />
+                строительной компанией не только на территории Республики <br />
+                Казахстан, но и за рубежом. Учредителем и генеральным <br />
+                директором группы строительных компаний «MM Group» <br />
+                является - Мольдир Суюншали.
+              </p>
+            </article>
+            <article>
+              <h3 class="a-p__company-mission-h3 a-p__h3 h3">Миссия</h3>
+              <p class="a-p__bottom-subcontent text">
+                Приоритетом группы строительных компаний «MM Group» является
+                <br />
+                профессиональный подход с применением инновационных <br />
+                решении в строительстве воздвигаемых объектов, опытный <br />
+                коллектив, качественные материалы и своевременность сдачи <br />
+                объектов с доступной возможностью приобретения не только <br />
+                жилья, но и других объектов недвижимости.
+              </p>
+            </article>
+          </div>
+          <div class="a-p__right-content">
+            <figure class="a-p__images">
+              <img
+                class="rec__34 a-p__image"
+                src="/assets/img/Секция о проекте/Rectangle 34.jpg"
+              />
+              <img
+                class="rec__35 a-p__image"
+                src="/assets/img/Секция о проекте/Rectangle 35.jpg"
+              />
+              <img
+                class="points a-p__image"
+                src="/assets/img/Секция о проекте/points.png"
+              />
+            </figure>
+            <article class="a-p__purpose">
+              <h3 class="a-p__purpose-h3 a-p__h3 h3">Цель</h3>
+              <p class="a-p__subcontent text">
+                Укрепление статуса компании, которая <br />
+                способна обеспечить потребителя доступной <br />
+                и качественной недвижимостью в срок. <br />
+                Развитие, надежность и качество!
+              </p>
+            </article>
+          </div>
+          <p class="a-p__bg">О проекте</p>
+        </div>
+      </section>
+
+      <section class="cottages__section">
+        <div class="cottages__container">
+          <h2 class="cottages__h2 h2">Коттеджи</h2>
+          <div class="cottages__content">
+            <a class="cottages__left-arrow" href="#">
+              <svg
+                class="cottages__svg"
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="25" cy="25" r="25" fill="#842231" />
+                <g clip-path="url(#clip0_111_220)">
+                  <path
+                    d="M13.9997 24.9996C13.9995 24.8779 14.0477 24.7612 14.1336 24.6751L22.3836 16.4251C22.5657 16.2492 22.8559 16.2543 23.0317 16.4363C23.2033 16.6139 23.2033 16.8955 23.0317 17.0731L15.1062 24.9995L23.0317 32.925C23.2076 33.1071 23.2025 33.3972 23.0205 33.5731C22.8428 33.7447 22.5613 33.7447 22.3836 33.5731L14.1336 25.3231C14.0479 25.2373 13.9998 25.1209 13.9997 24.9996Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M14 24.9995C14 24.7464 14.2052 24.5411 14.4583 24.5411L35.5417 24.5411C35.7948 24.5412 36 24.7464 36 24.9995C36 25.2526 35.7948 25.4579 35.5417 25.4579L14.4583 25.4579C14.2052 25.4579 14 25.2526 14 24.9995Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_111_220">
+                    <rect
+                      width="22"
+                      height="22"
+                      fill="white"
+                      transform="translate(36 14) rotate(90)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <figure class="cottage__images">
+              <img
+                class="cottages__points cottage__image"
+                src="assets/img/Секция коттеджи/points.png"
+              />
+              <img
+                class="rec__6 cottage__image"
+                src="assets/img/Секция коттеджи/Rectangle 6.jpg"
+              />
+              <div class="cottages__square">
+                <p class="cottages__figure-text">179 м<sup>2</sup></p>
+                <img
+                  class="rec__7 cottage__image"
+                  src="assets/img/Секция коттеджи/Rectangle 7.jpg"
+                />
+              </div>
+            </figure>
+            <a class="cottages__right-arrow" href="#">
+              <svg
+                class="cottages__svg"
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="25" cy="25" r="25" fill="#842231" />
+                <g clip-path="url(#clip0_111_214)">
+                  <path
+                    d="M26.9672 17.075L34.4353 24.5422L14.4583 24.5422C14.2052 24.5422 14 24.7474 14 25.0005C14 25.2536 14.2052 25.4589 14.4583 25.4589L34.4353 25.4589L26.9672 32.926C26.7913 33.1081 26.7964 33.3982 26.9784 33.5741C27.156 33.7456 27.4376 33.7456 27.6152 33.5741L35.8652 25.3241C36.0444 25.1454 36.0448 24.8551 35.866 24.6759C35.8658 24.6757 35.8655 24.6754 35.8652 24.6751L27.6152 16.4251C27.4331 16.2492 27.143 16.2543 26.9671 16.4364C26.7955 16.614 26.7955 16.8956 26.9671 17.0732L26.9672 17.075Z"
+                    fill="#FFC107"
+                  />
+                  <path
+                    d="M36.0003 25.0004C36.0005 25.1221 35.9523 25.2388 35.8664 25.3249L27.6164 33.5749C27.4343 33.7508 27.1441 33.7457 26.9683 33.5637C26.7967 33.3861 26.7967 33.1045 26.9683 32.9269L34.8938 25.0005L26.9683 17.075C26.7924 16.8929 26.7975 16.6028 26.9795 16.4269C27.1572 16.2553 27.4387 16.2553 27.6164 16.4269L35.8664 24.6769C35.9521 24.7627 36.0002 24.8791 36.0003 25.0004Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M36 25.0005C36 25.2536 35.7948 25.4589 35.5417 25.4589L14.4583 25.4589C14.2052 25.4588 14 25.2536 14 25.0005C14 24.7474 14.2052 24.5421 14.4583 24.5421L35.5417 24.5421C35.7948 24.5421 36 24.7474 36 25.0005Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_111_214">
+                    <rect
+                      width="22"
+                      height="22"
+                      fill="white"
+                      transform="translate(14 36) rotate(-90)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="location__section">
+        <div class="location__container">
+          <article class="location__content">
+            <h2 class="location__h2 h2">Локация</h2>
+            <p class="text">
+              Закрытый коттеджный городок Nura Elite <br />
+              расположен в элитном и перспективном районе <br />
+              столицы, рядом с зелёным поясом по соседству с <br />
+              Vella Village.
+            </p>
+            <p class="text">
+              Nura Elite - это прекрасное пространство для <br />
+              уединения и активной семейной жизни в <br />
+              гармонии с природой, без городского шума с <br />
+              удобной транспортной развязкой.
+            </p>
+          </article>
+          <figure class="location__images">
+            <img
+              class="group__18 location__image"
+              src="/assets/img/Секция о локации/Group 18.jpg"
+            />
+            <img
+              class="rec__33 location__image"
+              src="/assets/img/Секция о локации/Rectangle 33.jpg"
+            />
+            <img
+              class="rec__3 location__image"
+              src="/assets/img/Секция о локации/Rectangle 3.jpg"
+            />
+          </figure>
+          <p class="location__bg">ЛОКАЦИЯ</p>
+        </div>
+      </section>
+
+      <section class="benefits__section">
+        <div class="benefits__container">
+          <div class="benefits__content-block">
+            <h2 class="h2">
+              Основные преимущества <br />
+              городка
+            </h2>
+            <div class="benefits__first-row-content">
+              <svg
+                class="icon"
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M52.2511 9.62892C52.0602 9.47365 51.8351 9.36591 51.5945 9.31453C51.3538 9.26315 51.1044 9.2696 50.8667 9.33336L35.9178 14L20.9378 6.39336C20.733 6.2986 20.5101 6.24951 20.2844 6.24951C20.0588 6.24951 19.8359 6.2986 19.6311 6.39336L4.07555 12.7556C3.78902 12.8733 3.54416 13.0739 3.37234 13.3316C3.20052 13.5893 3.10955 13.8925 3.1111 14.2023V46.06C3.11237 46.3148 3.1762 46.5654 3.29698 46.7897C3.41776 47.014 3.59179 47.2053 3.80377 47.3466C4.01576 47.4879 4.25921 47.575 4.51274 47.6002C4.76627 47.6254 5.02211 47.588 5.25777 47.4911L20.2222 41.3467L35.14 49C35.3614 49.1135 35.6068 49.1721 35.8555 49.1711C36.0102 49.1946 36.1675 49.1946 36.3222 49.1711L51.8778 44.3178C52.2055 44.2151 52.4901 44.0068 52.6871 43.7254C52.8841 43.4441 52.9824 43.1054 52.9667 42.7623V10.8889C52.9586 10.6366 52.8892 10.39 52.7646 10.1705C52.6399 9.95099 52.4637 9.76511 52.2511 9.62892ZM49.7778 41.6111L36.8355 45.6556V42.0934H34.3467V45.2045L21.28 38.5V35.8711H18.7911V38.5467L6.22221 43.7267V15.2289L18.7911 10.0489V13.7045H21.28V10.0645L34.3467 16.7534V20.02H36.8355V17.1111L49.7778 13.0045V41.6111Z"
+                  fill="black"
+                />
+                <path
+                  d="M34.3467 23.4268H36.8356V29.3534H34.3467V23.4268Z"
+                  fill="black"
+                />
+                <path
+                  d="M34.3467 32.76H36.8356V38.6867H34.3467V32.76Z"
+                  fill="black"
+                />
+                <path
+                  d="M18.7913 17.2046H21.2801V23.1313H18.7913V17.2046Z"
+                  fill="black"
+                />
+                <path
+                  d="M18.7913 26.6465H21.2801V32.4798H18.7913V26.6465Z"
+                  fill="black"
+                />
+              </svg>
+              <p class="benefit-icons__text text">
+                Выгодное <br />
+                месторасположение
+              </p>
+              <svg
+                class="benefits__icon-2 icon"
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="56" height="56" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_111_147"
+                      transform="scale(0.00666667)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_111_147"
+                    width="150"
+                    height="150"
+                    xlink:href="data:image/png;base64,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"
+                  />
+                </defs>
+              </svg>
+              <p class="benefit-icons__text text">
+                Охраняемая <br />
+                территория
+              </p>
+            </div>
+
+            <div class="benefits__second-row-content">
+              <img
+                class="benefits__icon-3 benefits__left-icon icon"
+                src="/assets/img/Секция основные преимущества городка/Rectangle 29.png"
+              />
+              <p class="benefits__icon-3__text text">
+                Городок по периметру огражден <br />
+                3-метровым забором, оснащен <br />
+                системой видеонаблюдения 24/7
+              </p>
+              <img
+                class="benefits__icon-4 icon"
+                src="/assets/img/Секция основные преимущества городка/Rectangle 31.png"
+              />
+              <p class="benefits__icon-4__text list-reset text">
+                Здесь вы почувствуете <br />
+                уединенность, безопасность <br />
+                и комфорт
+              </p>
+            </div>
+          </div>
+          <figure class="benefits__figure-picture">
+            <img
+              class="benefits__picture"
+              src="/assets/img/Секция основные преимущества городка/Rectangle 8.jpg"
+            />
+          </figure>
+          <div class="benefits__third-row-content">
+            <img
+              class="benefits__icon-5 benefits__left-icon icon"
+              src="/assets/img/Секция основные преимущества городка/Rectangle 26.png"
+            />
+            <p class="benefit-icons__text text">
+              Индивидуальные участки <br />
+              ограждены 2-метровыми <br />
+              заборами
+            </p>
+            <img
+              class="benefits__icon-6-7 icon"
+              src="/assets/img/Секция основные преимущества городка/Rectangle 28.png"
+            />
+            <p class="benefit-icons__text text">
+              Собственное <br />
+              приложение
+            </p>
+          </div>
+          <div class="benefits__last-row-content">
+            <img
+              class="benefits__icon-6-7 icon"
+              src="/assets/img/Секция основные преимущества городка/Rectangle 27.png"
+            />
+            <p class="benefit-icons__text text">
+              Каждому владельцу коттеджа даётся возможность на своем земельном
+              <br />
+              участке возводить дополнительные застройки: баню, сауну, летнюю
+              кухню <br />
+              и др.
+            </p>
+          </div>
+        </div>
+        <div class="benefits__bg-container">
+          <figure>
+            <img
+              class="benefits__bg"
+              src="/assets/img/Секция основные преимущества городка/Rectangle 6.jpg"
+            />
+            <img
+              class="benefits__bg-symbol"
+              src="/assets/img/Секция основные преимущества городка/symbol 3.png"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="reasons__section">
+        <div class="reasons__container">
+          <h2 class="reasons__h2 h2">Почему NURA ELITE?</h2>
+          <div class="reasons__content">
+            <figure>
+              <img
+                class="rec__9 reasons__image"
+                src="assets/img/Секция причины/Rectangle 9.jpg"
+              />
+              <img
+                class="rec__10 reasons__image"
+                src="assets/img/Секция причины/Rectangle 10.jpg"
+              />
+              <img
+                class="group__19 reasons__image"
+                src="assets/img/Секция причины/Group 19.jpg"
+              />
+            </figure>
+            <div class="reasons__right-content">
+              <div class="reasons__row-content">
+                <img
+                  class="icon"
+                  src="/assets/img/Секция причины/Rectangle 21.png"
+                />
+                <article class="reasons__icon-text reasons__first-icon-text">
+                  <h3 class="reasons__h3 h3">Энергоэффектиновсть</h3>
+                  <p class="reasons__text">
+                    Дома сохраняют тепло зимой и прохладу летом
+                  </p>
+                </article>
+                <img
+                  class="reasons__top-right-icon icon"
+                  src="/assets/img/Секция причины/Rectangle 23.png"
+                />
+                <article class="reasons__icon-text reasons__second-icon-text">
+                  <h3 class="reasons__h3 h3">Экологически чистый район</h3>
+                  <p class="reasons__text">
+                    Городок расположен рядом с лесополосой и к. Нура-Есиль
+                  </p>
+                </article>
+              </div>
+              <div class="reasons__row-content">
+                <img
+                  class="icon"
+                  src="/assets/img/Секция причины/Rectangle 22.png"
+                />
+                <article class="reasons__icon-text reasons__third-icon-text">
+                  <h3 class="reasons__h3 h3">Безопасность</h3>
+                  <p class="reasons__text">
+                    Закрытый городок с круглосуточным видеонаблюдением
+                  </p>
+                </article>
+                <img
+                  class="reasons__bottom-right-icon icon"
+                  src="/assets/img/Секция причины/Rectangle 25.png"
+                />
+                <article class="reasons__icon-text reasons__fourth-icon-text">
+                  <h3 class="reasons__h3 h3">Коммуникации</h3>
+                  <p class="reasons__text reasons-margin-text">
+                    Централизованное водоснабжение, энергоснабжение и
+                    канализация.
+                  </p>
+                  <p class="reasons__text">
+                    Отопительная система и горячая вода - это один общий
+                    газгольдер на весь городок, функционирующий за счет газа.
+                  </p>
+                </article>
               </div>
             </div>
-            <nav class="header__navigation nav">
-              <ul class="nav__menu menu list-reset">
-                <li class="submenu__item"><a class="submenu__link" href="#">О проекте</a></li>
-                <li class="submenu__item"><a class="submenu__link" href="#">Локация</a></li>
-                <li class="submenu__item"><a class="submenu__link" href="#">Преимущества</a></li>
-                <li class="submenu__item"><a class="submenu__link" href="#">Почему мы?</a></li>
-                <li class="submenu__item"><a class="submenu__link" href="#">Способы оплаты</a></li>
-                <li class="submenu__item"><a class="submenu__link" href="#">Контакты</a></li>
-              </ul>
-            </nav>
           </div>
+          <p class="reasons__bg">ПОЧЕМУ NURA</p>
         </div>
-      </div>
-    </header>
+      </section>
 
-
-    <div class="first-section__container">
-      <!-- first-section = f-s -->
-      <div class="f-s__left-content">
-        <h1 class="h1">Элитный коттеджный городок в г. Нур-Султан</h1>
-        <a class="btn" href="#">Скачать презентацию</a>
-        <div class="f-s__left-content-information">
-          <h3 class="f-s__h3">36 коттеджей</h3>
-          <div class="f-s__row-content">
-            <strong class="f-s__big-number">3</strong>
-            <p class="f-s__left-content-text">коттеджа <br> 368 м<sup>2</sup> <br> на 10 сотках
-            </p>
-            <strong class="f-s__big-number">33</strong>
-            <p class="f-s__left-content-text">коттеджа <br> 179 м<sup>2</sup> <br> на 5 сотках
-            </p>
-          </div>
+      <section class="technology__section">
+        <div class="container">
+          <h2 class="technology__h2 h2">Технология строения</h2>
+          <ul class="list-reset">
+            <div class="techonology__common-block">
+              <div class="techonology__left-block technology__blocks">
+                <li>
+                  <figure>
+                    <img
+                      src="/assets/img/Секция технология строения/Rectangle 11.jpg"
+                    />
+                  </figure>
+                  <h3 class="technology__h3 h3">Конструкция стены</h3>
+                  <p class="technology__text">
+                    Двойная кладка из жжённого красного кирпича - 38/40 см,
+                    утепление минеральной плитой - 10 см., и облицовка HPL и ФБЦ
+                    панелью
+                  </p>
+                </li>
+                <li>
+                  <figure>
+                    <img
+                      src="/assets/img/Секция технология строения/Rectangle 13.jpg"
+                    />
+                  </figure>
+                  <h3 class="technology__h3 h3">Конструкция двери</h3>
+                  <p class="technology__text">
+                    Технология IZO TERMO. Двери не соприкасаются с наружными.
+                    Между ними расположен изолятор - щит из португальского
+                    пробкового дуба толщиной в 8 мм. IZO TERMO устраняет “мостик
+                    холода” и не дает теплу уходить из дома. С этой технологией
+                    вам не нужен тамбур и вторая дверь.
+                  </p>
+                </li>
+                <li>
+                  <figure>
+                    <img
+                      src="/assets/img/Секция технология строения/Rectangle 15.jpg"
+                    />
+                  </figure>
+                  <h3 class="technology__h3 h3">Конструкция Фасада</h3>
+                  <p class="technology__text">
+                    HPL панель - это высококачественная строительная продукция
+                    для долговечной облицовки фасада. Стойкость на погодные
+                    воздействия +180 с/ -180с с высоким эффектом защиты от
+                    атмосферных воздействий. Данная защита обеспечивается за
+                    счет применения акрилополиуретановых смол с двойным
+                    отверждением. Относится к экологичным материалам.
+                  </p>
+                </li>
+              </div>
+              <div class="techonology__right-block technology__blocks">
+                <li>
+                  <figure>
+                    <img
+                      src="/assets/img/Секция технология строения/Rectangle 12.jpg"
+                    />
+                  </figure>
+                  <h3 class="technology__h3 h3">Конструкция окна</h3>
+                  <p class="technology__text">
+                    Высокая экологичность, безопасность, надёжность
+                    и долговечность, усиленная теплоизолирующая способность,
+                    которая обеспечивается пятикамерным строением профиля с
+                    тройным остеклением и шумоизоляцией (система Helios
+                    рассчитана на стеклопакеты толщиной 44 мм с воздушной
+                    прослойкой в 16 мм, проходя через которые низкочастотные
+                    шумы теряют свою интенсивность, что очень ценят жители)
+                    по технологии FUNKE
+                  </p>
+                </li>
+                <li>
+                  <figure>
+                    <img
+                      src="/assets/img/Секция технология строения/Rectangle 14.jpg"
+                    />
+                  </figure>
+                  <h3 class="technology__h3 h3">Конструкция кровли</h3>
+                  <p class="technology__text">
+                    Гибкая черепица ТЕХНОНИКОЛЬ SHINGLAS - это гарантия комфорта
+                    и безопасности вашего дома. Дома с кровлей из гибкой
+                    черепицы ТЕХНОНИКОЛЬ SHINGLAS очаровывают своей гармонией,
+                    изяществом. Коллекции отличаются разнообразием форм и
+                    расцветок.
+                  </p>
+                </li>
+                <li>
+                  <figure>
+                    <img
+                      src="/assets/img/Секция технология строения/Rectangle 16.jpg"
+                    />
+                  </figure>
+                  <h3 class="technology__h3 h3">ФБЦ</h3>
+                  <p class="technology__text">
+                    ФБЦ - это уникальный и высококачественный строительный
+                    материал для долговечной облицовки фасада. Высокая
+                    морозостойкость, пожаробезопасность, хорошая звуко- и
+                    теплоизоляция, герметичность, повышенная прочность,
+                    погодоустойчивость. Безопасна как для человека, так и для
+                    окружающей среды. Они не содержат асбест, состоят из
+                    экологически чистых натуральных компонентов: 82-85% цемента,
+                    древесное волокно, добавки для снижения веса,
+                    кремнийорганические соединения
+                  </p>
+                </li>
+              </div>
+            </div>
+          </ul>
+          <p class="technology__bg">Технология</p>
         </div>
-      </div>
-      <div class="f-s__right-content">
-        <p class="f-s__right-content-text">
-          <strong class="f-s__right-content-fat">Строительные работы</strong> начались в <br> сентябре 2021 года.
-        </p>
-        <p class="f-s__right-content-text">
-          <strong class="f-s__right-content-fat">Срок сдачи</strong> коттеджей - I квартал 2022 <br> года.
-        </p>
-        <p class="f-s__right-content-text">
-          <strong class="f-s__right-content-fat">Срок сдачи</strong> всего коттеджнего городка <br> - II квартал
-          2022 года.
-        </p>
-      </div>
-    </div>
-  </section>
+      </section>
 
-
-
-
-
-  <main>
-
-
-
-
-
-    <section class="about-project__section">
-      <!-- about-project = a-p -->
-      <div class="a-p__container">
-        <div class="a-p__left-content">
-          <h2 class="a-p__h2 h2">О проекте</h2>
-          <p class="a-p__subcontent text">
-            Элитный закрытый коттеджный городок в г. Нур-Султан, состоящий из:
+      <div class="presentation__container">
+        <div class="presentation__name">
+          <h2 class="presentation__h2 h2">Скачать презентацию</h2>
+          <p class="presentation__text">
+            Оставьте свои контакты и мы вам вышлем
           </p>
-          <article>
-            <h3 class="a-p__first-h3 a-p__h3 h3">36 коттеджей:</h3>
-            <ul class="a-p__menu">
-              <li class="a-p__subcontent text">
-                368 м<sup>2</sup> на 10 сотках
+        </div>
+        <div class="presentation__buttons">
+          <fieldset class="presentation__form-group">
+            <legend class="presentation__form-legend">Ваше имя</legend>
+            <input
+              class="presentation__form-input"
+              type="text"
+              placeholder="Ваше имя"
+            />
+          </fieldset>
+          <fieldset class="presentation__form-group">
+            <legend class="presentation__form-legend">Номер телефона</legend>
+            <input
+              class="presentation__form-input"
+              type="tel"
+              placeholder="Номер телефона"
+            />
+          </fieldset>
+          <a class="presentation__button-send" href="/" type="submit"
+            >Отправить</a
+          >
+        </div>
+      </div>
+
+      <div class="payment__container">
+        <h2 class="payment__h2 h2">Способы оплаты</h2>
+        <ul class="payment__menu list-reset">
+          <li class="payment__submenu">
+            <img
+              class="payment__images"
+              src="/assets/img/Область способы оплаты/image 2.png"
+            />
+            <ul class="payment__text payment__first-text list-reset">
+              <li class="payment__first-first-item">Получение займа</li>
+              <li class="payment__first-second-item">через АО</li>
+              <li>"ЖилСтройСберБанк"</li>
+            </ul>
+          </li>
+          <li class="payment__submenu">
+            <svg
+              class="payment__images"
+              width="82"
+              height="67"
+              viewBox="0 0 82 67"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M48.8147 56.81C43.5947 62.99 36.8447 66.08 28.5647 66.08C20.2847 66.08 13.5647 62.99 8.40469 56.81C3.24469 50.63 0.664688 42.86 0.664688 33.5C0.664688 24.2 3.27469 16.46 8.49469 10.28C13.7147 4.04 20.4647 0.919999 28.7447 0.919999C36.9647 0.919999 43.6547 4.01 48.8147 10.19C54.0347 16.37 56.6447 24.14 56.6447 33.5C56.6447 42.8 54.0347 50.57 48.8147 56.81ZM18.6647 47.9C21.2447 51.68 24.6047 53.57 28.7447 53.57C32.8847 53.57 36.1847 51.71 38.6447 47.99C41.1647 44.21 42.4247 39.38 42.4247 33.5C42.4247 27.74 41.1347 22.97 38.5547 19.19C35.9747 15.35 32.6447 13.43 28.5647 13.43C24.4847 13.43 21.1847 15.32 18.6647 19.1C16.1447 22.82 14.8847 27.62 14.8847 33.5C14.8847 39.32 16.1447 44.12 18.6647 47.9ZM69.6349 55.352C68.8669 56.184 67.8829 56.6 66.6829 56.6C65.4829 56.6 64.5069 56.192 63.7549 55.376C63.0029 54.544 62.6269 53.52 62.6269 52.304C62.6269 51.088 63.0109 50.072 63.7789 49.256C64.5469 48.424 65.5309 48.008 66.7309 48.008C67.9309 48.008 68.9069 48.424 69.6589 49.256C70.4109 50.072 70.7869 51.088 70.7869 52.304C70.7869 53.504 70.4029 54.52 69.6349 55.352ZM64.3069 65L76.5709 48.2H79.4269L67.1629 65H64.3069ZM79.9549 63.944C79.1869 64.776 78.2029 65.192 77.0029 65.192C75.8029 65.192 74.8269 64.784 74.0749 63.968C73.3229 63.136 72.9469 62.112 72.9469 60.896C72.9469 59.68 73.3309 58.664 74.0989 57.848C74.8669 57.016 75.8509 56.6 77.0509 56.6C78.2509 56.6 79.2269 57.016 79.9789 57.848C80.7309 58.664 81.1069 59.68 81.1069 60.896C81.1069 62.096 80.7229 63.112 79.9549 63.944ZM66.7309 54.416C67.2109 54.416 67.5869 54.216 67.8589 53.816C68.1309 53.4 68.2669 52.896 68.2669 52.304C68.2669 51.728 68.1149 51.232 67.8109 50.816C67.5229 50.4 67.1469 50.192 66.6829 50.192C66.2029 50.192 65.8269 50.392 65.5549 50.792C65.2829 51.192 65.1469 51.696 65.1469 52.304C65.1469 52.88 65.2909 53.376 65.5789 53.792C65.8829 54.208 66.2669 54.416 66.7309 54.416ZM77.0509 63.008C77.5309 63.008 77.9069 62.808 78.1789 62.408C78.4509 61.992 78.5869 61.488 78.5869 60.896C78.5869 60.32 78.4349 59.824 78.1309 59.408C77.8429 58.992 77.4669 58.784 77.0029 58.784C76.5229 58.784 76.1469 58.984 75.8749 59.384C75.6029 59.784 75.4669 60.288 75.4669 60.896C75.4669 61.472 75.6109 61.968 75.8989 62.384C76.2029 62.8 76.5869 63.008 77.0509 63.008Z"
+                fill="#333333"
+              />
+            </svg>
+            <p class="payment__text">
+              Получение беспроцентной рассрочки от застройщика NURA ELITE
+            </p>
+          </li>
+          <li class="payment__submenu">
+            <img
+              class="payment__images"
+              src="/assets/img/Область способы оплаты/image 4.png"
+            />
+            <p class="payment__text">Казахстанская Ипотечная Компания «Орда»</p>
+          </li>
+          <li class="payment__submenu">
+            <img
+              class="payment__images"
+              src="/assets/img/Область способы оплаты/logos_bitcoin.png"
+            />
+            <p class="payment__text">Оплата криптовалютой (Биткоин)</p>
+          </li>
+        </ul>
+        <p class="payment__bg">Оплата</p>
+      </div>
+
+      <div class="contacts__container">
+        <figure>
+          <img src="/assets/img/Область Контакты/Rectangle 20.jpg" />
+        </figure>
+        <article class="contacts__information">
+          <h2 class="contacts__h2 h2">Контакты</h2>
+          <address class="contacts__address">
+            ул. Кунаева 10, БЦ “Изумрудный”, блок - А, этаж 1
+          </address>
+          <div class="contacts__connect-information">
+            <ul class="contacts__menu list-reset">
+              <li class="contacts__list">
+                <svg
+                  class="contacts__icons"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.1291 17.4858L16.1477 17.4561L17.9995 13.6972L12.5901 9.64011L10.1011 11.5067C9.16251 11.4508 8.27693 11.0528 7.61204 10.3879C6.94716 9.72299 6.54912 8.83741 6.49328 7.89877L8.35985 5.4099L4.30284 0.000487683L0.575384 1.83693L0.543913 1.85239L0.514223 1.87101C0.356314 1.96901 0.226116 2.1058 0.136022 2.26835C0.0459288 2.4309 -0.00105869 2.6138 -0.000473145 2.79965L-0.000473187 3.76957C-0.000473269 5.63841 0.36762 7.48894 1.08279 9.21551C1.79797 10.9421 2.84621 12.5109 4.16768 13.8324C5.48914 15.1538 7.05795 16.2021 8.78453 16.9172C10.5111 17.6324 12.3616 18.0005 14.2305 18.0005L15.2004 18.0005C15.3863 18.0011 15.5692 17.9541 15.7317 17.864C15.8943 17.7739 16.0311 17.6437 16.1291 17.4858ZM14.2305 16.6114C7.14944 16.6114 1.3886 10.8506 1.3886 3.76957L1.3886 2.98474L3.88299 1.75602L6.62359 5.41016L5.09782 7.44459L5.09782 7.67609C5.09937 9.06174 5.65051 10.3902 6.63031 11.37C7.61012 12.3498 8.93857 12.9009 10.3242 12.9025L10.5557 12.9025L12.5901 11.3767L16.244 14.117L15.0151 16.6114L14.2305 16.6114Z"
+                    fill="#333333"
+                  />
+                </svg>
+                <a class="contacts__link" href="tel:+77000011888"
+                  >+7 (700) 001-18-88</a
+                >
               </li>
-              <li class="a-p__subcontent text">
-                179 м<sup>2</sup> на 5 сотках
+              <li class="contacts__list">
+                <svg
+                  class="contacts__icons"
+                  width="18"
+                  height="14"
+                  viewBox="0 0 18 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.75 1.75L9 8.125L17.25 1.75M0.75 1H17.25V13H0.75V1Z"
+                    stroke="#333333"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <a class="contacts__link" href="mailto:info@nuramm.kz"
+                  >info@nuramm.kz</a
+                >
+              </li>
+              <li class="contacts__list">
+                <svg
+                  class="contacts__icons"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.99731 5.12558C7.15795 5.12558 4.86644 7.30255 4.86644 10C4.86644 12.6974 7.15795 14.8744 9.99731 14.8744C12.8367 14.8744 15.1282 12.6974 15.1282 10C15.1282 7.30255 12.8367 5.12558 9.99731 5.12558ZM9.99731 13.168C8.16111 13.168 6.66262 11.7444 6.66262 10C6.66262 8.25557 8.16111 6.83198 9.99731 6.83198C11.8335 6.83198 13.332 8.25557 13.332 10C13.332 11.7444 11.8335 13.168 9.99731 13.168ZM15.3383 3.78993C14.6754 3.78993 14.14 4.29852 14.14 4.92832C14.14 5.55812 14.6754 6.06672 15.3383 6.06672C16.0013 6.06672 16.5366 5.5605 16.5366 4.92832C16.5368 4.77877 16.5059 4.63066 16.4458 4.49246C16.3856 4.35426 16.2974 4.22869 16.1861 4.12294C16.0748 4.01719 15.9426 3.93335 15.7971 3.8762C15.6516 3.81906 15.4957 3.78974 15.3383 3.78993ZM19.9989 10C19.9989 8.68811 20.0114 7.38811 19.9338 6.0786C19.8563 4.55757 19.4911 3.20766 18.3203 2.09541C17.147 0.980781 15.7286 0.636173 14.1275 0.562499C12.7466 0.488824 11.3782 0.500707 9.99981 0.500707C8.61891 0.500707 7.25051 0.488824 5.8721 0.562499C4.27105 0.636173 2.85012 0.983158 1.67935 2.09541C0.506076 3.21004 0.143338 4.55757 0.0657868 6.0786C-0.0117642 7.39049 0.000744099 8.69049 0.000744099 10C0.000744099 11.3095 -0.0117642 12.6119 0.0657868 13.9214C0.143338 15.4424 0.508578 16.7923 1.67935 17.9046C2.85262 19.0192 4.27105 19.3638 5.8721 19.4375C7.25301 19.5112 8.62141 19.4993 9.99981 19.4993C11.3807 19.4993 12.7491 19.5112 14.1275 19.4375C15.7286 19.3638 17.1495 19.0168 18.3203 17.9046C19.4936 16.79 19.8563 15.4424 19.9338 13.9214C20.0139 12.6119 19.9989 11.3119 19.9989 10ZM17.7974 15.604C17.6148 16.0366 17.3947 16.3598 17.0419 16.6925C16.6892 17.0276 16.3515 17.2368 15.8962 17.4103C14.5803 17.907 11.4558 17.7953 9.99731 17.7953C8.53885 17.7953 5.4118 17.907 4.09593 17.4126C3.64064 17.2391 3.30041 17.03 2.95018 16.6949C2.59745 16.3598 2.37731 16.039 2.19469 15.6064C1.67434 14.3539 1.79192 11.3856 1.79192 10C1.79192 8.61444 1.67434 5.64368 2.19469 4.39359C2.37731 3.96104 2.59745 3.63783 2.95018 3.3051C3.30291 2.97238 3.64064 2.76086 4.09593 2.58737C5.4118 2.09303 8.53885 2.20473 9.99731 2.20473C11.4558 2.20473 14.5828 2.09303 15.8987 2.58737C16.354 2.76086 16.6942 2.97 17.0444 3.3051C17.3972 3.6402 17.6173 3.96104 17.7999 4.39359C18.3203 5.64368 18.2027 8.61444 18.2027 10C18.2027 11.3856 18.3203 14.3539 17.7974 15.604Z"
+                    fill="#333333"
+                  />
+                </svg>
+                <a class="contacts__link" href="mailto:@nura.premier"
+                  >@nura.premier</a
+                >
               </li>
             </ul>
-          </article>
-          <article>
-            <h3 class="a-p__company-mission-h3 a-p__h3 h3">О компании</h3>
-            <p class="a-p__subcontent text">
-              “MM Group” Группа Строительных Компании – современная и <br> динамично развивающаяся группа компаний,
-              оказывающая <br>
-              широкий спектр услуг в строительном бизнесе от <br> проектирования до сдачи объектов под ключ. Свою
-              деятельность <br>
-              в
-              строительном бизнесе начала осуществлять с 2013 года и <br> прочно зарекомендовала себя надежной
-              Казахстанской <br>
-              строительной компанией не только на территории Республики <br> Казахстан, но и за рубежом. Учредителем и
-              генеральным <br> директором группы строительных компаний «MM Group» <br> является - Мольдир Суюншали.
-            </p>
-          </article>
-          <article>
-            <h3 class="a-p__company-mission-h3 a-p__h3 h3">Миссия</h3>
-            <p class="a-p__bottom-subcontent text">
-              Приоритетом группы строительных компаний «MM Group» является <br> профессиональный подход с применением
-              инновационных <br> решении в строительстве воздвигаемых объектов, опытный <br> коллектив, качественные
-              материалы
-              и своевременность сдачи <br> объектов с доступной возможностью приобретения не только <br> жилья, но и
-              других
-              объектов
-              недвижимости.
-            </p>
-          </article>
-        </div>
-        <div class="a-p__right-content">
-          <figure class="a-p__images">
-            <img class="rec__34 a-p__image" src="/assets/img/Секция о проекте/Rectangle 34.jpg">
-            <img class="rec__35 a-p__image" src="/assets/img/Секция о проекте/Rectangle 35.jpg">
-            <img class="points a-p__image" src="/assets/img/Секция о проекте/points.png">
-          </figure>
-          <article class="a-p__purpose">
-            <h3 class="a-p__purpose-h3 a-p__h3 h3">Цель</h3>
-            <p class="a-p__subcontent text">
-              Укрепление статуса компании, которая <br> способна обеспечить потребителя доступной <br> и качественной
-              недвижимостью
-              в
-              срок. <br> Развитие, надежность и качество!
-            </p>
-          </article>
-        </div>
-        <p class="a-p__bg">О проекте</p>
-      </div>
-    </section>
-
-
-
-
-
-
-    <section class="cottages__section">
-      <div class="cottages__container">
-        <h2 class="cottages__h2 h2">Коттеджи</h2>
-        <div class="cottages__content">
-          <a class="cottages__left-arrow" href="#">
-            <svg class="cottages__svg" width="50" height="50" viewBox="0 0 50 50" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <circle cx="25" cy="25" r="25" fill="#842231" />
-              <g clip-path="url(#clip0_111_220)">
-                <path
-                  d="M13.9997 24.9996C13.9995 24.8779 14.0477 24.7612 14.1336 24.6751L22.3836 16.4251C22.5657 16.2492 22.8559 16.2543 23.0317 16.4363C23.2033 16.6139 23.2033 16.8955 23.0317 17.0731L15.1062 24.9995L23.0317 32.925C23.2076 33.1071 23.2025 33.3972 23.0205 33.5731C22.8428 33.7447 22.5613 33.7447 22.3836 33.5731L14.1336 25.3231C14.0479 25.2373 13.9998 25.1209 13.9997 24.9996Z"
-                  fill="white" />
-                <path
-                  d="M14 24.9995C14 24.7464 14.2052 24.5411 14.4583 24.5411L35.5417 24.5411C35.7948 24.5412 36 24.7464 36 24.9995C36 25.2526 35.7948 25.4579 35.5417 25.4579L14.4583 25.4579C14.2052 25.4579 14 25.2526 14 24.9995Z"
-                  fill="white" />
-              </g>
-              <defs>
-                <clipPath id="clip0_111_220">
-                  <rect width="22" height="22" fill="white" transform="translate(36 14) rotate(90)" />
-                </clipPath>
-              </defs>
-            </svg>
-          </a>
-          <figure class="cottage__images">
-            <img class="cottages__points cottage__image" src="assets/img/Секция коттеджи/points.png">
-            <img class="rec__6 cottage__image" src="assets/img/Секция коттеджи/Rectangle 6.jpg">
-            <div class="cottages__square">
-              <p class="cottages__figure-text">179 м<sup>2</sup></p>
-              <img class="rec__7 cottage__image" src="assets/img/Секция коттеджи/Rectangle 7.jpg">
-            </div>
-          </figure>
-          <a class="cottages__right-arrow" href="#">
-            <svg class="cottages__svg" width="50" height="50" viewBox="0 0 50 50" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <circle cx="25" cy="25" r="25" fill="#842231" />
-              <g clip-path="url(#clip0_111_214)">
-                <path
-                  d="M26.9672 17.075L34.4353 24.5422L14.4583 24.5422C14.2052 24.5422 14 24.7474 14 25.0005C14 25.2536 14.2052 25.4589 14.4583 25.4589L34.4353 25.4589L26.9672 32.926C26.7913 33.1081 26.7964 33.3982 26.9784 33.5741C27.156 33.7456 27.4376 33.7456 27.6152 33.5741L35.8652 25.3241C36.0444 25.1454 36.0448 24.8551 35.866 24.6759C35.8658 24.6757 35.8655 24.6754 35.8652 24.6751L27.6152 16.4251C27.4331 16.2492 27.143 16.2543 26.9671 16.4364C26.7955 16.614 26.7955 16.8956 26.9671 17.0732L26.9672 17.075Z"
-                  fill="#FFC107" />
-                <path
-                  d="M36.0003 25.0004C36.0005 25.1221 35.9523 25.2388 35.8664 25.3249L27.6164 33.5749C27.4343 33.7508 27.1441 33.7457 26.9683 33.5637C26.7967 33.3861 26.7967 33.1045 26.9683 32.9269L34.8938 25.0005L26.9683 17.075C26.7924 16.8929 26.7975 16.6028 26.9795 16.4269C27.1572 16.2553 27.4387 16.2553 27.6164 16.4269L35.8664 24.6769C35.9521 24.7627 36.0002 24.8791 36.0003 25.0004Z"
-                  fill="white" />
-                <path
-                  d="M36 25.0005C36 25.2536 35.7948 25.4589 35.5417 25.4589L14.4583 25.4589C14.2052 25.4588 14 25.2536 14 25.0005C14 24.7474 14.2052 24.5421 14.4583 24.5421L35.5417 24.5421C35.7948 24.5421 36 24.7474 36 25.0005Z"
-                  fill="white" />
-              </g>
-              <defs>
-                <clipPath id="clip0_111_214">
-                  <rect width="22" height="22" fill="white" transform="translate(14 36) rotate(-90)" />
-                </clipPath>
-              </defs>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </section>
-
-
-
-
-
-    <section class="location__section">
-      <div class="location__container">
-        <article class="location__content">
-          <h2 class="location__h2 h2">Локация</h2>
-          <p class="text">Закрытый коттеджный городок Nura Elite <br> расположен в элитном и перспективном районе <br>
-            столицы, рядом с зелёным поясом по соседству с <br> Vella Village.</p>
-          <p class="text">Nura Elite - это прекрасное пространство для <br> уединения и активной семейной жизни в <br>
-            гармонии с природой, без городского шума с <br> удобной транспортной развязкой.</p>
+            <figure>
+              <img
+                src="/assets/img/Область Контакты/WhatsApp Image 2020-11-21 at 17.03 1.jpg"
+              />
+            </figure>
+          </div>
         </article>
-        <figure class="location__images">
-          <img class="group__18 location__image" src="/assets/img/Секция о локации/Group 18.jpg" />
-          <img class="rec__33 location__image" src="/assets/img/Секция о локации/Rectangle 33.jpg" />
-          <img class="rec__3 location__image" src="/assets/img/Секция о локации/Rectangle 3.jpg" />
-        </figure>
-        <p class="location__bg">ЛОКАЦИЯ</p>
       </div>
-    </section>
+    </main>
 
-
-
-
-
-
-    <section class="benefits__section">
-      <div class="benefits__container">
-        <div class="benefits__content-block">
-          <h2 class="h2">Основные преимущества <br> городка</h2>
-          <div class="benefits__first-row-content">
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M52.2511 9.62892C52.0602 9.47365 51.8351 9.36591 51.5945 9.31453C51.3538 9.26315 51.1044 9.2696 50.8667 9.33336L35.9178 14L20.9378 6.39336C20.733 6.2986 20.5101 6.24951 20.2844 6.24951C20.0588 6.24951 19.8359 6.2986 19.6311 6.39336L4.07555 12.7556C3.78902 12.8733 3.54416 13.0739 3.37234 13.3316C3.20052 13.5893 3.10955 13.8925 3.1111 14.2023V46.06C3.11237 46.3148 3.1762 46.5654 3.29698 46.7897C3.41776 47.014 3.59179 47.2053 3.80377 47.3466C4.01576 47.4879 4.25921 47.575 4.51274 47.6002C4.76627 47.6254 5.02211 47.588 5.25777 47.4911L20.2222 41.3467L35.14 49C35.3614 49.1135 35.6068 49.1721 35.8555 49.1711C36.0102 49.1946 36.1675 49.1946 36.3222 49.1711L51.8778 44.3178C52.2055 44.2151 52.4901 44.0068 52.6871 43.7254C52.8841 43.4441 52.9824 43.1054 52.9667 42.7623V10.8889C52.9586 10.6366 52.8892 10.39 52.7646 10.1705C52.6399 9.95099 52.4637 9.76511 52.2511 9.62892ZM49.7778 41.6111L36.8355 45.6556V42.0934H34.3467V45.2045L21.28 38.5V35.8711H18.7911V38.5467L6.22221 43.7267V15.2289L18.7911 10.0489V13.7045H21.28V10.0645L34.3467 16.7534V20.02H36.8355V17.1111L49.7778 13.0045V41.6111Z"
-                fill="black" />
-              <path d="M34.3467 23.4268H36.8356V29.3534H34.3467V23.4268Z" fill="black" />
-              <path d="M34.3467 32.76H36.8356V38.6867H34.3467V32.76Z" fill="black" />
-              <path d="M18.7913 17.2046H21.2801V23.1313H18.7913V17.2046Z" fill="black" />
-              <path d="M18.7913 26.6465H21.2801V32.4798H18.7913V26.6465Z" fill="black" />
-            </svg>
-            <p class="benefit-icons__text text">Выгодное <br> месторасположение
-            </p>
-            <svg class="benefits__icon-2" width="56" height="56" viewBox="0 0 56 56" fill="none"
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <rect width="56" height="56" fill="url(#pattern0)" />
-              <defs>
-                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                  <use xlink:href="#image0_111_147" transform="scale(0.00666667)" />
-                </pattern>
-                <image id="image0_111_147" width="150" height="150"
-                  xlink:href="data:image/png;base64,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" />
-              </defs>
-            </svg>
-            <p class="benefit-icons__text text">Охраняемая <br> территория
-          </div>
-          <div class="benefits__second-row-content">
-            <img class="benefits__icon-3 benefits__left-icon icon"
-              src="/assets/img/Секция основные преимущества городка/Rectangle 29.png">
-            <p class="benefits__icon-3__text text">Городок по периметру огражден <br> 3-метровым забором, оснащен <br>
-              системой видеонаблюдения 24/7
-            </p>
-            <img class="benefits__icon-4 icon" src="/assets/img/Секция основные преимущества городка/Rectangle 31.png">
-            <p class="benefits__icon-4__text list-reset text">Здесь вы почувствуете <br> уединенность, безопасность <br>
-              и комфорт
-            </p>
-          </div>
-        </div>
-        <figure class="benefits__picture">
-          <img src="/assets/img/Секция основные преимущества городка/Rectangle 8.jpg">
-        </figure>
-        <div class="benefits__third-row-content">
-          <img class="benefits__icon-5 benefits__left-icon icon"
-            src="/assets/img/Секция основные преимущества городка/Rectangle 26.png">
-          <p class="benefit-icons__text text">Индивидуальные участки <br> ограждены 2-метровыми <br> заборами
-          </p>
-          <img class="benefits__icon-6-7 icon" src="/assets/img/Секция основные преимущества городка/Rectangle 28.png">
-          <p class="benefit-icons__text text">Собственное <br> приложение
-          </p>
-        </div>
-        <div class="benefits__last-row-content">
-          <img class="benefits__icon-6-7 icon" src="/assets/img/Секция основные преимущества городка/Rectangle 27.png">
-          <p class="benefit-icons__text text">Каждому владельцу коттеджа даётся возможность на своем земельном <br>
-            участке возводить дополнительные застройки: баню, сауну, летнюю кухню <br> и др.
-          </p>
-        </div>
-      </div>
-      <div class="benefits__bg-container">
-        <figure>
-          <img class="benefits__bg" src="/assets/img/Секция основные преимущества городка/Rectangle 6.jpg">
-          <img class="benefits__bg-symbol" src="/assets/img/Секция основные преимущества городка/symbol 3.png">
-        </figure>
-      </div>
-    </section>
-
-
-
-
-
-
-    <section class="reasons__section">
-      <div class="reasons__container">
-        <h2 class="reasons__h2 h2">Почему NURA ELITE?</h2>
-        <div class="reasons__content">
-          <figure>
-            <img class="rec__9 reasons__image" src="assets/img/Секция причины/Rectangle 9.jpg">
-            <img class="rec__10 reasons__image" src="assets/img/Секция причины/Rectangle 10.jpg">
-            <img class="group__19 reasons__image" src="assets/img/Секция причины/Group 19.jpg">
-          </figure>
-          <div class="reasons__right-content">
-            <div class="reasons__row-content">
-              <img class="icon" src="/assets/img/Секция причины/Rectangle 21.png">
-              <article class="reasons__icon-text reasons__first-icon-text">
-                <h3 class="reasons__h3 h3">Энергоэффектиновсть</h3>
-                <p class="reasons__text">Дома сохраняют тепло зимой и прохладу летом</p>
-              </article>
-              <img class="reasons__top-right-icon icon" src="/assets/img/Секция причины/Rectangle 23.png">
-              <article class="reasons__icon-text reasons__second-icon-text">
-                <h3 class="reasons__h3 h3">Экологически чистый район</h3>
-                <p class="reasons__text">Городок расположен рядом с лесополосой и к. Нура-Есиль</p>
-              </article>
-            </div>
-            <div class="reasons__row-content">
-              <img class="icon" src="/assets/img/Секция причины/Rectangle 22.png">
-              <article class="reasons__icon-text reasons__third-icon-text">
-                <h3 class="reasons__h3 h3">Безопасность</h3>
-                <p class="reasons__text">Закрытый городок с круглосуточным видеонаблюдением</p>
-              </article>
-              <img class="reasons__bottom-right-icon icon" src="/assets/img/Секция причины/Rectangle 25.png">
-              <article class="reasons__icon-text reasons__fourth-icon-text">
-                <h3 class="reasons__h3 h3">Коммуникации</h3>
-                <p class="reasons__text reasons-margin-text">
-                  Централизованное водоснабжение, энергоснабжение и канализация.
-                </p>
-                <p class="reasons__text">
-                  Отопительная система и горячая вода - это один общий газгольдер на весь городок, функционирующий за
-                  счет газа.
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
-        <p class="reasons__bg">ПОЧЕМУ NURA</p>
-      </div>
-    </section>
-
-
-
-
-
-
-    <section class="technology__section">
-      <div class="container">
-        <h2 class="technology__h2 h2">Технология строения</h2>
-        <ul class="list-reset">
-          <div class="techonology__common-block">
-            <div class="techonology__left-block technology__blocks">
-              <li>
-                <figure>
-                  <img src="/assets/img/Секция технология строения/Rectangle 11.jpg">
-                </figure>
-                <h3 class="technology__h3 h3">Конструкция стены</h3>
-                <p class="technology__text">
-                  Двойная кладка из жжённого красного кирпича - 38/40 см, утепление минеральной плитой - 10 см., и
-                  облицовка HPL и ФБЦ панелью
-                </p>
-              </li>
-              <li>
-                <figure>
-                  <img src="/assets/img/Секция технология строения/Rectangle 13.jpg">
-                </figure>
-                <h3 class="technology__h3 h3">Конструкция двери</h3>
-                <p class="technology__text">
-                  Технология IZO TERMO. Двери не соприкасаются с наружными. Между ними расположен изолятор - щит из
-                  португальского пробкового дуба толщиной в 8 мм. IZO TERMO устраняет “мостик холода” и не дает теплу
-                  уходить из дома. С этой технологией вам не нужен тамбур и вторая дверь.
-                </p>
-              </li>
-              <li>
-                <figure>
-                  <img src="/assets/img/Секция технология строения/Rectangle 15.jpg">
-                </figure>
-                <h3 class="technology__h3 h3">Конструкция Фасада</h3>
-                <p class="technology__text">
-                  HPL панель - это высококачественная строительная продукция для долговечной облицовки фасада. Стойкость
-                  на погодные воздействия +180 с/ -180с с высоким эффектом защиты от атмосферных воздействий. Данная
-                  защита обеспечивается за счет применения акрилополиуретановых смол с двойным отверждением. Относится к
-                  экологичным материалам.
-                </p>
-              </li>
-            </div>
-            <div class="techonology__right-block technology__blocks">
-              <li>
-                <figure>
-                  <img src="/assets/img/Секция технология строения/Rectangle 12.jpg">
-                </figure>
-                <h3 class="technology__h3 h3">Конструкция окна</h3>
-                <p class="technology__text">
-                  Высокая экологичность, безопасность, надёжность и долговечность, усиленная теплоизолирующая
-                  способность, которая обеспечивается пятикамерным строением профиля с тройным остеклением
-                  и шумоизоляцией (система Helios рассчитана на стеклопакеты толщиной 44 мм с воздушной прослойкой в 16
-                  мм, проходя через которые низкочастотные шумы теряют свою интенсивность, что очень ценят жители)
-                  по технологии FUNKE
-                </p>
-              </li>
-              <li>
-                <figure>
-                  <img src="/assets/img/Секция технология строения/Rectangle 14.jpg">
-                </figure>
-                <h3 class="technology__h3 h3">Конструкция кровли</h3>
-                <p class="technology__text">
-                  Гибкая черепица ТЕХНОНИКОЛЬ SHINGLAS - это гарантия комфорта и безопасности вашего дома. Дома с
-                  кровлей из гибкой черепицы ТЕХНОНИКОЛЬ SHINGLAS очаровывают своей гармонией, изяществом. Коллекции
-                  отличаются разнообразием форм и расцветок.
-                </p>
-              </li>
-              <li>
-                <figure>
-                  <img src="/assets/img/Секция технология строения/Rectangle 16.jpg">
-                </figure>
-                <h3 class="technology__h3 h3">ФБЦ</h3>
-                <p class="technology__text">
-                  ФБЦ - это уникальный и высококачественный строительный материал для долговечной облицовки фасада.
-                  Высокая морозостойкость, пожаробезопасность, хорошая звуко- и теплоизоляция, герметичность, повышенная
-                  прочность, погодоустойчивость. Безопасна как для человека, так и для окружающей среды. Они не содержат
-                  асбест, состоят из экологически чистых натуральных компонентов: 82-85% цемента, древесное волокно,
-                  добавки для снижения веса, кремнийорганические соединения
-                </p>
-              </li>
-            </div>
-          </div>
+    <footer class="footer">
+      <nav class="footer__navigation nav">
+        <ul class="footer__menu list-reset">
+          <li>
+            <a class="footer__links" href="#">Преимущества</a>
+          </li>
+          <li>
+            <a class="footer__links" href="#">Почему мы?</a>
+          </li>
+          <li>
+            <a class="footer__links" href="#">Технологии</a>
+          </li>
+          <li>
+            <a class="footer__links" href="#">Способы оплаты</a>
+          </li>
         </ul>
-        <p class="technology__bg">Технология</p>
-      </div>
-    </section>
-
-
-
-
-
-
-
-    <div class="presentation__container">
-      <div class="presentation__name">
-        <h2 class="presentation__h2 h2">Скачать презентацию</h2>
-        <p class="presentation__text">Оставьте свои контакты и мы вам вышлем</p>
-      </div>
-      <div class="presentation__buttons">
-        <fieldset class="presentation__form-group">
-          <legend class="presentation__form-legend">Ваше имя</legend>
-          <input class="presentation__form-input" type="text" placeholder="Ваше имя">
-        </fieldset>
-        <fieldset class="presentation__form-group">
-          <legend class="presentation__form-legend">Номер телефона</legend>
-          <input class="presentation__form-input" type="tel" placeholder="Номер телефона">
-        </fieldset>
-        <a class="presentation__button-send" href="/" type="submit">Отправить</a>
-      </div>
-    </div>
-
-
-
-
-
-
-
-    <div class="payment__container">
-      <h2 class="payment__h2 h2">Способы оплаты</h2>
-      <ul class="payment__menu list-reset">
-        <li class="payment__submenu">
-          <img class="payment__images" src="/assets/img/Область способы оплаты/image 2.png">
-          <ul class="payment__text payment__first-text list-reset">
-            <li class="payment__first-first-item">Получение займа</li>
-            <li class="payment__first-second-item">через АО</li>
-            <li>"ЖилСтройСберБанк"</li>
-          </ul>
-        </li>
-        <li class="payment__submenu">
-          <svg class="payment__images" width="82" height="67" viewBox="0 0 82 67" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M48.8147 56.81C43.5947 62.99 36.8447 66.08 28.5647 66.08C20.2847 66.08 13.5647 62.99 8.40469 56.81C3.24469 50.63 0.664688 42.86 0.664688 33.5C0.664688 24.2 3.27469 16.46 8.49469 10.28C13.7147 4.04 20.4647 0.919999 28.7447 0.919999C36.9647 0.919999 43.6547 4.01 48.8147 10.19C54.0347 16.37 56.6447 24.14 56.6447 33.5C56.6447 42.8 54.0347 50.57 48.8147 56.81ZM18.6647 47.9C21.2447 51.68 24.6047 53.57 28.7447 53.57C32.8847 53.57 36.1847 51.71 38.6447 47.99C41.1647 44.21 42.4247 39.38 42.4247 33.5C42.4247 27.74 41.1347 22.97 38.5547 19.19C35.9747 15.35 32.6447 13.43 28.5647 13.43C24.4847 13.43 21.1847 15.32 18.6647 19.1C16.1447 22.82 14.8847 27.62 14.8847 33.5C14.8847 39.32 16.1447 44.12 18.6647 47.9ZM69.6349 55.352C68.8669 56.184 67.8829 56.6 66.6829 56.6C65.4829 56.6 64.5069 56.192 63.7549 55.376C63.0029 54.544 62.6269 53.52 62.6269 52.304C62.6269 51.088 63.0109 50.072 63.7789 49.256C64.5469 48.424 65.5309 48.008 66.7309 48.008C67.9309 48.008 68.9069 48.424 69.6589 49.256C70.4109 50.072 70.7869 51.088 70.7869 52.304C70.7869 53.504 70.4029 54.52 69.6349 55.352ZM64.3069 65L76.5709 48.2H79.4269L67.1629 65H64.3069ZM79.9549 63.944C79.1869 64.776 78.2029 65.192 77.0029 65.192C75.8029 65.192 74.8269 64.784 74.0749 63.968C73.3229 63.136 72.9469 62.112 72.9469 60.896C72.9469 59.68 73.3309 58.664 74.0989 57.848C74.8669 57.016 75.8509 56.6 77.0509 56.6C78.2509 56.6 79.2269 57.016 79.9789 57.848C80.7309 58.664 81.1069 59.68 81.1069 60.896C81.1069 62.096 80.7229 63.112 79.9549 63.944ZM66.7309 54.416C67.2109 54.416 67.5869 54.216 67.8589 53.816C68.1309 53.4 68.2669 52.896 68.2669 52.304C68.2669 51.728 68.1149 51.232 67.8109 50.816C67.5229 50.4 67.1469 50.192 66.6829 50.192C66.2029 50.192 65.8269 50.392 65.5549 50.792C65.2829 51.192 65.1469 51.696 65.1469 52.304C65.1469 52.88 65.2909 53.376 65.5789 53.792C65.8829 54.208 66.2669 54.416 66.7309 54.416ZM77.0509 63.008C77.5309 63.008 77.9069 62.808 78.1789 62.408C78.4509 61.992 78.5869 61.488 78.5869 60.896C78.5869 60.32 78.4349 59.824 78.1309 59.408C77.8429 58.992 77.4669 58.784 77.0029 58.784C76.5229 58.784 76.1469 58.984 75.8749 59.384C75.6029 59.784 75.4669 60.288 75.4669 60.896C75.4669 61.472 75.6109 61.968 75.8989 62.384C76.2029 62.8 76.5869 63.008 77.0509 63.008Z"
-              fill="#333333" />
-          </svg>
-          <p class="payment__text">Получение беспроцентной рассрочки от застройщика NURA ELITE</p>
-        </li>
-        <li class="payment__submenu">
-          <img class="payment__images" src="/assets/img/Область способы оплаты/image 4.png">
-          <p class="payment__text">Казахстанская Ипотечная Компания «Орда»</p>
-        </li>
-        <li class="payment__submenu">
-          <img class="payment__images" src="/assets/img/Область способы оплаты/logos_bitcoin.png">
-          <p class="payment__text">Оплата криптовалютой (Биткоин)</p>
-        </li>
-      </ul>
-      <p class="payment__bg">Оплата</p>
-    </div>
-
-
-
-
-
-
-    <div class="contacts__container">
-      <figure>
-        <img src="/assets/img/Область Контакты/Rectangle 20.jpg">
-      </figure>
-      <article class="contacts__information">
-        <h2 class="contacts__h2 h2">Контакты</h2>
-        <address class="contacts__address">ул. Кунаева 10, БЦ “Изумрудный”, блок - А, этаж 1</address>
-        <div class="contacts__connect-information">
-          <ul class="contacts__menu list-reset">
-            <li class="contacts__list">
-              <svg class="contacts__icons" width="18" height="18" viewBox="0 0 18 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M16.1291 17.4858L16.1477 17.4561L17.9995 13.6972L12.5901 9.64011L10.1011 11.5067C9.16251 11.4508 8.27693 11.0528 7.61204 10.3879C6.94716 9.72299 6.54912 8.83741 6.49328 7.89877L8.35985 5.4099L4.30284 0.000487683L0.575384 1.83693L0.543913 1.85239L0.514223 1.87101C0.356314 1.96901 0.226116 2.1058 0.136022 2.26835C0.0459288 2.4309 -0.00105869 2.6138 -0.000473145 2.79965L-0.000473187 3.76957C-0.000473269 5.63841 0.36762 7.48894 1.08279 9.21551C1.79797 10.9421 2.84621 12.5109 4.16768 13.8324C5.48914 15.1538 7.05795 16.2021 8.78453 16.9172C10.5111 17.6324 12.3616 18.0005 14.2305 18.0005L15.2004 18.0005C15.3863 18.0011 15.5692 17.9541 15.7317 17.864C15.8943 17.7739 16.0311 17.6437 16.1291 17.4858ZM14.2305 16.6114C7.14944 16.6114 1.3886 10.8506 1.3886 3.76957L1.3886 2.98474L3.88299 1.75602L6.62359 5.41016L5.09782 7.44459L5.09782 7.67609C5.09937 9.06174 5.65051 10.3902 6.63031 11.37C7.61012 12.3498 8.93857 12.9009 10.3242 12.9025L10.5557 12.9025L12.5901 11.3767L16.244 14.117L15.0151 16.6114L14.2305 16.6114Z"
-                  fill="#333333" />
-              </svg>
-              <a class="contacts__link" href="tel:+77000011888">+7 (700) 001-18-88</a>
-            </li>
-            <li class="contacts__list">
-              <svg class="contacts__icons" width="18" height="14" viewBox="0 0 18 14" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M0.75 1.75L9 8.125L17.25 1.75M0.75 1H17.25V13H0.75V1Z" stroke="#333333" stroke-width="1.5" />
-              </svg>
-              <a class="contacts__link" href="mailto:info@nuramm.kz">info@nuramm.kz</a>
-            </li>
-            <li class="contacts__list">
-              <svg class="contacts__icons" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M9.99731 5.12558C7.15795 5.12558 4.86644 7.30255 4.86644 10C4.86644 12.6974 7.15795 14.8744 9.99731 14.8744C12.8367 14.8744 15.1282 12.6974 15.1282 10C15.1282 7.30255 12.8367 5.12558 9.99731 5.12558ZM9.99731 13.168C8.16111 13.168 6.66262 11.7444 6.66262 10C6.66262 8.25557 8.16111 6.83198 9.99731 6.83198C11.8335 6.83198 13.332 8.25557 13.332 10C13.332 11.7444 11.8335 13.168 9.99731 13.168ZM15.3383 3.78993C14.6754 3.78993 14.14 4.29852 14.14 4.92832C14.14 5.55812 14.6754 6.06672 15.3383 6.06672C16.0013 6.06672 16.5366 5.5605 16.5366 4.92832C16.5368 4.77877 16.5059 4.63066 16.4458 4.49246C16.3856 4.35426 16.2974 4.22869 16.1861 4.12294C16.0748 4.01719 15.9426 3.93335 15.7971 3.8762C15.6516 3.81906 15.4957 3.78974 15.3383 3.78993ZM19.9989 10C19.9989 8.68811 20.0114 7.38811 19.9338 6.0786C19.8563 4.55757 19.4911 3.20766 18.3203 2.09541C17.147 0.980781 15.7286 0.636173 14.1275 0.562499C12.7466 0.488824 11.3782 0.500707 9.99981 0.500707C8.61891 0.500707 7.25051 0.488824 5.8721 0.562499C4.27105 0.636173 2.85012 0.983158 1.67935 2.09541C0.506076 3.21004 0.143338 4.55757 0.0657868 6.0786C-0.0117642 7.39049 0.000744099 8.69049 0.000744099 10C0.000744099 11.3095 -0.0117642 12.6119 0.0657868 13.9214C0.143338 15.4424 0.508578 16.7923 1.67935 17.9046C2.85262 19.0192 4.27105 19.3638 5.8721 19.4375C7.25301 19.5112 8.62141 19.4993 9.99981 19.4993C11.3807 19.4993 12.7491 19.5112 14.1275 19.4375C15.7286 19.3638 17.1495 19.0168 18.3203 17.9046C19.4936 16.79 19.8563 15.4424 19.9338 13.9214C20.0139 12.6119 19.9989 11.3119 19.9989 10ZM17.7974 15.604C17.6148 16.0366 17.3947 16.3598 17.0419 16.6925C16.6892 17.0276 16.3515 17.2368 15.8962 17.4103C14.5803 17.907 11.4558 17.7953 9.99731 17.7953C8.53885 17.7953 5.4118 17.907 4.09593 17.4126C3.64064 17.2391 3.30041 17.03 2.95018 16.6949C2.59745 16.3598 2.37731 16.039 2.19469 15.6064C1.67434 14.3539 1.79192 11.3856 1.79192 10C1.79192 8.61444 1.67434 5.64368 2.19469 4.39359C2.37731 3.96104 2.59745 3.63783 2.95018 3.3051C3.30291 2.97238 3.64064 2.76086 4.09593 2.58737C5.4118 2.09303 8.53885 2.20473 9.99731 2.20473C11.4558 2.20473 14.5828 2.09303 15.8987 2.58737C16.354 2.76086 16.6942 2.97 17.0444 3.3051C17.3972 3.6402 17.6173 3.96104 17.7999 4.39359C18.3203 5.64368 18.2027 8.61444 18.2027 10C18.2027 11.3856 18.3203 14.3539 17.7974 15.604Z"
-                  fill="#333333" />
-              </svg>
-              <a class="contacts__link" href="mailto:@nura.premier">@nura.premier</a>
-            </li>
-          </ul>
-          <figure>
-            <img src="/assets/img/Область Контакты/WhatsApp Image 2020-11-21 at 17.03 1.jpg">
-          </figure>
-        </div>
-      </article>
-    </div>
-
-
-
-
-
-  </main>
-
-
-
-
-
-  <footer class="footer">
-
-    <nav class="footer__navigation nav">
-      <ul class="footer__menu list-reset">
-        <li>
-          <a class="footer__links" href="#">Преимущества</a>
-        </li>
-        <li>
-          <a class="footer__links" href="#">Почему мы?</a>
-        </li>
-        <li>
-          <a class="footer__links" href="#">Технологии</a>
-        </li>
-        <li>
-          <a class="footer__links" href="#">Способы оплаты</a>
-        </li>
-      </ul>
-    </nav>
-    <a class="final-link" href="#">Создание сайта maxico.kz</a>
-
-  </footer>
-
-</body>
-
+      </nav>
+      <a class="final-link" href="#">Создание сайта maxico.kz</a>
+    </footer>
+  </body>
 </html>
