@@ -26,7 +26,7 @@
 }
 
 :root {
-  --hover-links-color: orange;
+  --hover-links-color: #FFA500;
   --ui-color: #DBA069;
   --red-rectangle-color: #842231;
   --icon-text-links-color: #FFFFFF;
@@ -116,7 +116,7 @@ circle {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-image: url(/assets/img/Секция\ header/Фон.jpg);
+  background-image: url(/assets/img/Секция\ header/Фонf.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -143,7 +143,6 @@ circle {
 .social-phone {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
 }
 
 .header__social {
@@ -152,6 +151,7 @@ circle {
 }
 
 .tel-contacts {
+  display: flex;
   cursor: pointer;
   align-items: center;
   order: 1;
@@ -450,6 +450,12 @@ circle {
   margin-bottom: 60px;
 }
 
+.cottages__relative-picture {
+  position: relative;
+  order: 2;
+  z-index: 1;
+}
+
 .cottage__image {
   position: relative;
 }
@@ -466,8 +472,6 @@ circle {
   width: 692px;
   height: 414px;
   margin-left: -490px;
-  order: 2;
-  z-index: 1;
 }
 
 .cottages__square {
@@ -713,7 +717,7 @@ circle {
   margin-bottom: 99px;
 }
 
-.reasons__content {
+.reasons__left-content {
   display: flex;
   flex-direction: row;
 }
@@ -1181,14 +1185,14 @@ circle {
     margin-right: 29px;
   }
 
-  .header__whatsapp-icon {
-    width: 16px;
-    height: 15px;
+  .whatsapp-icon {
+    width: 21px;
+    height: 21px;
   }
 
-  .header__icon-phone {
-    width: 15px;
-    height: 15px;
+  .phone-icon {
+    width: 19px;
+    height: 19px;
   }
 
   .tel__number {
