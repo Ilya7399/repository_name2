@@ -717,7 +717,7 @@ circle {
   margin-bottom: 99px;
 }
 
-.reasons__left-content {
+.reasons__content {
   display: flex;
   flex-direction: row;
 }
@@ -840,23 +840,21 @@ circle {
   display: flex;
   justify-content: center;
   margin-top: 150px;
-  margin-bottom: 42px;
+  margin-bottom: 26px;
 }
 
 .techonology__common-block {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .technology__blocks {
   display: flex;
   flex-direction: column;
-  width: 500px;
 }
 
 .techonology__right-block {
   margin-top: 108px;
-  margin-left: 100px;
 }
 
 .technology__h3 {
@@ -875,7 +873,7 @@ circle {
   position: absolute;
   font-size: 14.5625rem;
   opacity: 0.05;
-  margin-top: -1900px;
+  margin-top: -1920px;
   margin-left: -43px;
 }
 
@@ -1000,19 +998,20 @@ circle {
 }
 
 .payment__menu {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   padding: 0;
-  justify-content: space-between;
   margin: 0;
 }
 
-.payment__images {
-  margin-left: 30px;
+.payment__submenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .payment__text {
-  font-weight: 700;
+  font-family: 'Fira Sans Bold';
   font-size: 1.0625rem;
   width: 184px;
   margin-top: 10px;
@@ -1039,7 +1038,7 @@ circle {
   height: 312px;
   font-size: 16.25rem;
   opacity: 0.05;
-  margin-top: -470px;
+  margin-top: -460px;
 }
 
 
@@ -1526,5 +1525,227 @@ circle {
 
   .benefits__bg-symbol {
     height: 530px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 959.98px) {
+  .h2 {
+    font-size: 1.83rem;
+  }
+
+  .container {
+    max-width: 720px;
+  }
+
+  .header__logo {
+    width: 88px;
+    height: 84px;
+  }
+
+  .header__social {
+    margin-right: 22px;
+  }
+
+  .whatsapp-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .phone-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .tel__number {
+    font-size: 0.75rem;
+    margin-left: 6px;
+  }
+
+  .nav {
+    width: 482px;
+  }
+
+  .nav__menu {
+    margin-top: 8px;
+  }
+
+  .submenu__link {
+    font-size: 0.6rem;
+  }
+
+  .first-section__container {
+    max-width: 720px;
+    margin-top: 71px;
+  }
+
+  .left-content {
+    margin-bottom: 38px;
+  }
+
+  .h1 {
+    font-size: 1.4475rem;
+    margin-bottom: 12px;
+  }
+
+  .btn {
+    padding: 12px 18px;
+    font-size: 0.675rem;
+  }
+
+  .left-content__information {
+    margin-top: 25px;
+    margin-right: 75px;
+  }
+
+  .f-s__h3 {
+    font-size: 1.2rem;
+  }
+
+  .big-number {
+    font-size: 5rem;
+  }
+
+  .left-content__text {
+    margin-right: 6px;
+    margin-left: 6px;
+    font-size: 0.75rem;
+  }
+
+  .right-content__text {
+    font-size: 0.6rem;
+  }
+
+  .right-content__fat {
+    font-weight: 700;
+    font-size: 0.5625rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 719.98px) {
+  .h2 {
+    font-size: 1.3725rem;
+  }
+
+  .container {
+    max-width: 540px;
+  }
+
+  .header__logo {
+    width: 66px;
+    height: 63px;
+  }
+
+  .header__social {
+    margin-right: 17px;
+  }
+
+  .whatsapp-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .phone-icon {
+    width: 11px;
+    height: 11px;
+  }
+
+  .tel__number {
+    font-size: 0.5625rem;
+    margin-left: 5px;
+  }
+
+  .nav {
+    width: 362px;
+  }
+
+  .nav__menu {
+    margin-top: 6px;
+  }
+
+  .submenu__link {
+    font-size: 0.45rem;
+  }
+
+  .first-section__container {
+    max-width: 540px;
+    margin-top: 53px;
+  }
+
+  .left-content {
+    margin-bottom: 29px;
+  }
+
+  .h1 {
+    font-size: 1.0856rem;
+    margin-bottom: 9px;
+  }
+
+  .btn {
+    padding: 9px 14px;
+    font-size: 0.5rem;
+  }
+
+  .left-content__information {
+    margin-top: 19px;
+    margin-right: 53px;
+  }
+
+  .f-s__h3 {
+    font-size: 0.9rem;
+  }
+
+  .big-number {
+    font-size: 3.75rem;
+  }
+
+  .left-content__text {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 0.5625rem;
+  }
+
+  .right-content__text {
+    font-size: 0.45rem;
+  }
+
+  .right-content__fat {
+    font-weight: 700;
+    font-size: 0.42rem;
   }
 }
