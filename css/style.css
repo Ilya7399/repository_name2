@@ -58,6 +58,12 @@ figure {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+}
+
 path {
   transition: 0.3s ease-in-out;
 }
@@ -106,7 +112,6 @@ circle {
 }
 
 .first-screen__section {
-  position: relative;
   display: flex;
   flex-direction: column;
   background-image: url(/assets/img/Секция\ header/Фон.jpg);
@@ -115,9 +120,10 @@ circle {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .header__row {
@@ -125,6 +131,10 @@ circle {
   align-items: center;
   justify-content: space-between;
   padding: 0;
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .header__links {
@@ -132,6 +142,10 @@ circle {
   flex-direction: column;
   max-width: 789px;
   width: 100%;
+}
+
+.btn__links {
+  display: none;
 }
 
 .social-phone {
@@ -179,9 +193,10 @@ circle {
 }
 
 .first-section__container {
-  max-width: 1180px;
+  max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -256,9 +271,10 @@ circle {
 }
 
 .a-p__container {
-  max-width: 1180px;
+  max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
   display: flex;
   flex-direction: row;
 }
@@ -369,7 +385,8 @@ circle {
 }
 
 .left-arrow {
-  margin-left: -100px;
+  position: absolute;
+  margin-left: -90px;
 }
 
 .cottages__arrows:hover circle {
@@ -377,7 +394,7 @@ circle {
 }
 
 .cottages__arrows {
-  margin-bottom: 44px;
+  margin-bottom: 55px;
 }
 
 .cottage__images {
@@ -400,20 +417,20 @@ circle {
   width: 535px;
   height: 378px;
   margin-top: 60px;
-  order: 1;
-  z-index: 0;
+  margin-left: -735px;
+  order: 2;
 }
 
 .rec__6 {
   width: 692px;
   height: 414px;
-  margin-left: -490px;
+  order: 1;
 }
 
 .cottages__square {
   display: flex;
   flex-direction: column;
-  margin-left: 14px;
+  margin-left: 220px;
   margin-bottom: 60px;
 }
 
@@ -426,13 +443,15 @@ circle {
 }
 
 .right-arrow {
-  margin-left: 70px;
+  position: absolute;
+  margin-left: 1200px;
 }
 
 .location__container {
-  max-width: 1180px;
+  max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
   margin-top: 109px;
   display: flex;
   flex-direction: row;
@@ -493,9 +512,10 @@ circle {
 
 .benefits__container {
   position: relative;
-  max-width: 1180px;
+  max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
   z-index: 2;
 }
 
@@ -687,9 +707,10 @@ circle {
 }
 
 .presentation__container {
-  max-width: 1180px;
+  max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
   border: 8px solid #842231;
 }
 
@@ -770,9 +791,10 @@ circle {
 }
 
 .payment__container {
-  max-width: 893px;
+  max-width: 933px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .payment__h2 {
@@ -828,9 +850,10 @@ circle {
 }
 
 .contacts__container {
-  max-width: 1180px;
+  max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
   margin-top: 110px;
   display: flex;
   flex-direction: row;
@@ -881,9 +904,10 @@ circle {
 }
 
 .footer {
-  max-width: 688px;
+  max-width: 728px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
   margin-top: 100px;
 }
 
@@ -911,8 +935,8 @@ circle {
     font-size: 2.44rem;
   }
 
-  .container {
-    max-width: 960px;
+  .header__row {
+    max-width: 1000px;
   }
 
   .header__logo {
@@ -952,7 +976,7 @@ circle {
   }
 
   .first-section__container {
-    max-width: 960px;
+    max-width: 1000px;
     margin-top: 94px;
   }
 
@@ -999,7 +1023,7 @@ circle {
   }
 
   .a-p__container {
-    max-width: 960px;
+    max-width: 1000px;
   }
 
   .a-p__left-content {
@@ -1069,19 +1093,19 @@ circle {
   }
 
   .left-arrow {
-    margin-left: -75px;
+    margin-left: -80px;
   }
 
   .rec__6 {
     width: 560px;
     height: 335px;
-    margin-left: -396px;
   }
 
   .cottages__points {
     width: 433px;
     height: 306px;
-    margin-top: 49px;
+    margin-top: 52px;
+    margin-left: -598px;
   }
 
   .cottage__images {
@@ -1096,8 +1120,8 @@ circle {
 
   .cottages__square {
     margin-top: 8px;
-    margin-left: 11px;
-    margin-bottom: 50px;
+    margin-left: 178px;
+    margin-bottom: 49px;
   }
 
   .rec__7 {
@@ -1111,11 +1135,11 @@ circle {
   }
 
   .right-arrow {
-    margin-left: 57px;
+    margin-left: 976px;
   }
 
   .location__container {
-    max-width: 960px;
+    max-width: 1000px;
     margin-top: 72px;
   }
 
@@ -1148,7 +1172,7 @@ circle {
   }
 
   .benefits__container {
-    max-width: 960px;
+    max-width: 1000px;
   }
 
   .benefits__content {
@@ -1310,7 +1334,7 @@ circle {
   }
 
   .presentation__container {
-    max-width: 960px;
+    max-width: 1000px;
     border: 7px solid #842231;
   }
 
@@ -1362,7 +1386,7 @@ circle {
   }
 
   .payment__container {
-    max-width: 727px;
+    max-width: 767px;
   }
 
   .payment__h2 {
@@ -1413,7 +1437,7 @@ circle {
   }
 
   .contacts__container {
-    max-width: 960px;
+    max-width: 1000px;
     margin-top: 89px;
   }
 
@@ -1466,7 +1490,7 @@ circle {
   }
 
   .footer {
-    max-width: 560px;
+    max-width: 600px;
     margin-top: 81px;
   }
 
@@ -1486,8 +1510,36 @@ circle {
     font-size: 1.83rem;
   }
 
-  .container {
-    max-width: 720px;
+  .header__row {
+    max-width: 760px;
+    align-items: center;
+  }
+
+  .btn__links {
+    display: inline;
+  }
+
+  .nav-menu__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #FFA500;
+    border: 1px solid #FFA500;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-menu__btn:hover {
+    background: transparent;
+  }
+
+  .btn-line {
+    margin: 0 auto;
+    width: 80%;
+    height: 2px;
+    background-color: #000000;
   }
 
   .header__logo {
@@ -1497,6 +1549,7 @@ circle {
 
   .header__links {
     max-width: 482px;
+    margin-left: 90px;
   }
 
   .header__social {
@@ -1518,6 +1571,10 @@ circle {
     margin-left: 6px;
   }
 
+  .nav {
+    display: none;
+  }
+
   .nav__menu {
     margin-top: 8px;
   }
@@ -1527,7 +1584,7 @@ circle {
   }
 
   .first-section__container {
-    max-width: 720px;
+    max-width: 760px;
     margin-top: 71px;
   }
 
@@ -1574,7 +1631,7 @@ circle {
   }
 
   .a-p__container {
-    max-width: 720px;
+    max-width: 760px;
   }
 
   .a-p__left-content {
@@ -1690,7 +1747,7 @@ circle {
   }
 
   .location__container {
-    max-width: 720px;
+    max-width: 760px;
     margin-top: 54px;
   }
 
@@ -1723,7 +1780,7 @@ circle {
   }
 
   .benefits__container {
-    max-width: 720px;
+    max-width: 760px;
   }
 
   .benefits__content {
@@ -1889,7 +1946,7 @@ circle {
   }
 
   .presentation__container {
-    max-width: 720px;
+    max-width: 760px;
     border: 5px solid #842231;
   }
 
@@ -1941,7 +1998,7 @@ circle {
   }
 
   .payment__container {
-    max-width: 409px;
+    max-width: 449px;
   }
 
   .payment__h2 {
@@ -1992,7 +2049,7 @@ circle {
   }
 
   .contacts__container {
-    max-width: 720px;
+    max-width: 760px;
     margin-top: 67px;
   }
 
@@ -2046,7 +2103,7 @@ circle {
   }
 
   .footer {
-    max-width: 420px;
+    max-width: 460px;
     margin-top: 61px;
   }
 
@@ -2066,8 +2123,18 @@ circle {
     font-size: 1.3725rem;
   }
 
-  .container {
-    max-width: 540px;
+  .header__row {
+    max-width: 580px;
+  }
+
+  .nav-menu__btn {
+    width: 15px;
+    height: 19px;
+  }
+
+  .btn-line {
+    width: 100%;
+    height: 1px;
   }
 
   .header__logo {
@@ -2077,6 +2144,7 @@ circle {
 
   .header__links {
     max-width: 362px;
+    margin-left: 85px;
   }
 
   .header__social {
@@ -2107,7 +2175,7 @@ circle {
   }
 
   .first-section__container {
-    max-width: 540px;
+    max-width: 580px;
     margin-top: 53px;
   }
 
@@ -2154,7 +2222,7 @@ circle {
   }
 
   .a-p__container {
-    max-width: 540px;
+    max-width: 580px;
   }
 
   .a-p__left-content {
@@ -2271,7 +2339,7 @@ circle {
   }
 
   .location__container {
-    max-width: 540px;
+    max-width: 580px;
     margin-top: 41px;
   }
 
@@ -2304,7 +2372,7 @@ circle {
   }
 
   .benefits__container {
-    max-width: 540px;
+    max-width: 580px;
   }
 
   .benefits__content {
@@ -2471,7 +2539,7 @@ circle {
   }
 
   .presentation__container {
-    max-width: 540px;
+    max-width: 580px;
     border: 4px solid #842231;
   }
 
@@ -2523,7 +2591,7 @@ circle {
   }
 
   .payment__container {
-    max-width: 307px;
+    max-width: 347px;
   }
 
   .payment__h2 {
@@ -2574,7 +2642,7 @@ circle {
   }
 
   .contacts__container {
-    max-width: 540px;
+    max-width: 580px;
     margin-top: 50px;
   }
 
@@ -2628,7 +2696,7 @@ circle {
   }
 
   .footer {
-    max-width: 315px;
+    max-width: 355px;
     margin-top: 46px;
   }
 
