@@ -65,13 +65,11 @@
             </ul>
           </nav>
         </div>
-        <a class="btn__links" href="#" id="nav-request">
-          <div class="nav-menu__btn open__nav-menu">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-          </div>
-        </a>
+        <button class="btn__links" type="button" id="call-request">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </button>
       </div>
     </header>
 
@@ -285,7 +283,7 @@
             городка
           </h2>
           <div class="first benefits__row">
-            <img class="icon" src="/assets/img/Секция основные преимущества городка/clarity_map-line.png">
+            <img class="benefits__icon-1 icon" src="/assets/img/Секция основные преимущества городка/clarity_map-line.png">
             <p class="benefits-icons__text text">
               Выгодное <br />
               месторасположение
@@ -397,9 +395,8 @@
                 <h3 class="reasons__h3 h3">Коммуникации</h3>
                 <p class="reasons__text">
                   Централизованное водоснабжение, <br> энергоснабжение и
-                  канализация. <br> <br>
-                  Отопительная система и горячая вода - это один общий
-                  газгольдер на весь городок, функционирующий за счет газа.
+                  канализация. <br> <br> Отопительная система и горячая вода - <br> это один общий
+                  газгольдер на весь <br> городок, функционирующий за счет газа.
                 </p>
               </article>
             </div>
@@ -561,25 +558,36 @@
       <ul class="payment__menu list-reset">
         <li class="payment__submenu">
           <img class="payment__image-1" src="/assets/img/Область способы оплаты/image 2.png" />
-          <ul class="payment__text payment__first-text list-reset">
-            <li class="payment__first-first-item">Получение займа</li>
-            <li class="payment__first-second-item">через АО</li>
+          <ul class="payment__text list-reset">
+            <li>Получение займа</li>
+            <li>через АО</li>
             <li>"ЖилСтройСберБанк"</li>
           </ul>
         </li>
         <li class="payment__submenu">
           <img class="payment__image-2" src="/assets/img/Область способы оплаты/0.png">
-          <p class="payment__text">
-            Получение <br> беспроцентной рассрочки <br> от застройщика NURA <br> ELITE
-          </p>
+          <ul class="payment__text list-reset">
+            <li>Получение</li>
+            <li>беспроцентной рассрочки</li>
+            <li>от застройщика NURA</li>
+            <li>ELITE</li>
+          </ul>
         </li>
         <li class="payment__submenu">
           <img class="payment__image-3" src="/assets/img/Область способы оплаты/image 4.png" />
-          <p class="payment__text">Казахстанская <br> Ипотечная Компания <br> «Орда»</p>
+          <ul class="payment__text list-reset">
+            <li>Казахстанская</li>
+            <li>Ипотечная Компания</li>
+            <li>«Орда»</li>
+          </ul>
         </li>
         <li class="payment__submenu">
           <img class="payment__image-4" src="/assets/img/Область способы оплаты/logos_bitcoin.png" />
-          <p class="payment__text">Оплата <br> криптовалютой <br> (Биткоин)</p>
+          <ul class="payment__text list-reset">
+            <li>Оплата</li>
+            <li>криптовалютой</li>
+            <li>(Биткоин)</li>
+          </ul>
         </li>
       </ul>
       <p class="payment__bg">Оплата</p>
@@ -639,7 +647,7 @@
   </main>
 
   <footer class="footer">
-    <nav class="footer__navigation nav">
+    <nav class="footer__navigation">
       <ul class="footer__menu list-reset">
         <li>
           <a class="footer__links" href="#">Преимущества</a>
@@ -657,6 +665,36 @@
     </nav>
     <a class="final-link" href="#">Создание сайта maxico.kz</a>
   </footer>
+
+  <div class="dialog dialog_active" id="call-request-dialog">
+    <div class="dialog__overlay" id="call-request-overlay"></div>
+    <div class="dialog__content">
+      <nav class="nav-inside-btn" id="call-request-close">
+        <ul class="nav__menu menu list-reset">
+          <li class="submenu__item">
+            <a class="submenu__link" href="#">О проекте</a>
+          </li>
+          <li class="submenu__item">
+            <a class="submenu__link" href="#">Локация</a>
+          </li>
+          <li class="submenu__item">
+            <a class="submenu__link" href="#">Преимущества</a>
+          </li>
+          <li class="submenu__item">
+            <a class="submenu__link" href="#">Почему мы?</a>
+          </li>
+          <li class="submenu__item">
+            <a class="submenu__link" href="#">Способы оплаты</a>
+          </li>
+          <li class="submenu__item">
+            <a class="submenu__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
