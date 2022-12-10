@@ -130,7 +130,6 @@ circle {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0;
   max-width: 1220px;
   width: 100%;
   margin: 0 auto;
@@ -140,8 +139,6 @@ circle {
 .header__links {
   display: flex;
   flex-direction: column;
-  max-width: 789px;
-  width: 100%;
 }
 
 .btn__links {
@@ -175,8 +172,8 @@ circle {
 
 .nav__menu {
   display: flex;
-  justify-content: space-between;
   list-style: none;
+  gap: 50px;
   padding: 0;
   margin: 0;
 }
@@ -188,19 +185,17 @@ circle {
 .submenu__link {
   font-family: 'Fira Sans Regular';
   font-size: 1rem;
-  text-decoration: none;
   color: var(--icon-text-links-color);
 }
 
 .first-section__container {
   max-width: 1220px;
   width: 100%;
-  margin: 0 auto;
+  margin: 115px auto 0;
   padding: 0 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 115px;
 }
 
 .left-content {
@@ -220,14 +215,11 @@ circle {
   color: #000000;
   background-color: var(--ui-color);
   cursor: pointer;
-  text-decoration: none;
-  transition: 0.3s ease-in-out;
 }
 
 .left-content__information {
   display: flex;
   flex-direction: column;
-  justify-content: start;
   margin-top: 40px;
   color: var(--icon-text-links-color);
 }
@@ -236,13 +228,11 @@ circle {
   font-family: 'Fira Sans Bold';
   font-size: 2rem;
   margin: 0;
-  margin-bottom: 0;
 }
 
 .left__row-text {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
 }
 
 .big-number {
@@ -306,9 +296,8 @@ circle {
 }
 
 .a-p__menu {
-  margin-top: 0;
+  margin: 0;
   padding-left: 20px;
-  margin-bottom: 0;
 }
 
 .a-p__company-mission-h3 {
@@ -750,7 +739,7 @@ circle {
 
 .form-group {
   padding: 0;
-  border-width: 0px;
+  border-width: 0;
   margin-top: 3px;
 }
 
@@ -949,10 +938,6 @@ circle {
     height: 112px;
   }
 
-  .header__links {
-    max-width: 642px;
-  }
-
   .header__social {
     margin-right: 29px;
   }
@@ -973,6 +958,7 @@ circle {
   }
 
   .nav__menu {
+    gap: 40px;
     margin-top: 10px;
   }
 
@@ -1020,7 +1006,6 @@ circle {
 
   .right-content {
     max-width: 250px;
-    width: 100%;
   }
 
   .right-content__text {
@@ -1541,7 +1526,6 @@ circle {
 
   .header__row {
     max-width: 760px;
-    align-items: center;
   }
 
   .btn__links {
@@ -1582,8 +1566,11 @@ circle {
   }
 
   .header__links {
-    max-width: 450px;
-    margin-left: 100px;
+    flex-direction: row;
+  }
+
+  .social-phone {
+    margin-right: 20px;
   }
 
   .header__social {
@@ -1616,6 +1603,7 @@ circle {
   .nav__menu {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
     margin: 0;
   }
 
@@ -1672,7 +1660,6 @@ circle {
     display: flex;
     flex-direction: row;
     max-width: 760px;
-    width: 100%;
     gap: 5px;
     margin-bottom: 20px;
   }
@@ -1706,6 +1693,12 @@ circle {
 
   .a-p__menu {
     padding-left: 12px;
+  }
+
+  .a-p__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .a-p__company-mission-h3 {
@@ -1828,13 +1821,13 @@ circle {
 
   .location__content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     margin-top: 45px;
   }
 
   .location__h2 {
-    margin-bottom: 0;
+    margin: 0 auto 0;
   }
 
   .rec__3 {
@@ -2213,14 +2206,9 @@ circle {
     gap: 10px;
   }
 
-  .footer__links {
-    font-size: 1rem;
-  }
-
   .final-link {
     margin-top: 14px;
     margin-bottom: 17px;
-    font-size: 1rem;
   }
 }
 
@@ -2238,11 +2226,6 @@ circle {
     height: 74px;
   }
 
-  .header__links {
-    max-width: 350px;
-    margin-left: 0;
-  }
-
   .first-section__container {
     max-width: 580px;
   }
@@ -2257,7 +2240,6 @@ circle {
 
   .right-content {
     max-width: 580px;
-    width: 100%;
     gap: 10px;
   }
 
