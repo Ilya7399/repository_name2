@@ -519,43 +519,74 @@ circle {
   margin-left: 90px;
 }
 
+.benefits__content div {
+  width: 100%;
+}
+
 .benefits__h2 {
   margin: 0;
 }
 
 .benefits__row {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
-.benefits-icons__text {
+.benefits__row article {
+  display: flex;
+}
+
+.benefits-icon__text {
+  width: 100%;
   padding-left: 15px;
   margin: 0;
 }
 
+.first__ben__row {
+  max-width: 695px;
+}
+
 .first-icon__text {
-  width: 280px;
+  max-width: 290px;
 }
 
-.left-icon__text {
-  max-width: 280px;
-  width: 100%;
+.second-icon__text {
+  max-width: 195px;
 }
 
-.right-icons {
-  margin-left: 60px;
+.second__ben__row {
+  max-width: 800px;
 }
 
-.icon-7-text {
-  max-width: 700px;
-  width: 100%;
+.third-icon__text {
+  max-width: 330px;
+}
+
+.fourth-icon__text {
+  max-width: 300px;
+}
+
+.third__ben__row {
+  max-width: 760px;
+}
+
+.fifth-icon__text {
+  max-width: 300px;
+}
+
+.sixth-icon__text {
+  max-width: 250px;
+}
+
+.last__ben__row {
+  max-width: 770px;
 }
 
 .benefits__bg-container {
   position: relative;
   max-width: 1180px;
   width: 100%;
-  margin: -1240px auto 0;
+  margin: -1220px auto 0;
   z-index: 0;
 }
 
@@ -616,16 +647,17 @@ circle {
 }
 
 .reasons__right-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 86px;
-  margin-left: 41px;
-}
-
-.col {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  margin-top: 86px;
+  margin-left: 41px;
+  gap: 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .reason {
@@ -645,6 +677,8 @@ circle {
 }
 
 .reasons__text {
+  max-width: 300px;
+  width: 100%;
   font-family: 'Fira Sans Light';
   font-size: 1.125rem;
   margin: 0;
@@ -667,8 +701,8 @@ circle {
 }
 
 .technology__content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
 }
 
 .technology__columns {
@@ -678,6 +712,7 @@ circle {
 
 .techonology__right-column {
   margin-top: 108px;
+  margin-left: 60px;
 }
 
 .technology__h3 {
@@ -698,7 +733,7 @@ circle {
   position: absolute;
   font-size: 14.56rem;
   opacity: 0.05;
-  margin-top: -1860px;
+  margin-top: -1790px;
   margin-left: -43px;
 }
 
@@ -814,10 +849,13 @@ circle {
   align-items: center;
 }
 
+.payment__submenu:nth-child(even) {
+  color: var(--ui-color);
+}
+
 .payment__text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 184px;
+  text-align: center;
   font-family: 'Fira Sans Bold';
   font-size: 1.0625rem;
   margin-top: 10px;
@@ -836,7 +874,7 @@ circle {
   height: 312px;
   font-size: 16.25rem;
   opacity: 0.05;
-  margin-top: -420px;
+  margin-top: -460px;
 }
 
 .contacts__container {
@@ -1171,7 +1209,7 @@ circle {
 
   .benefits__content {
     margin-top: 49px;
-    gap: 41px;
+    gap: 30px;
     margin-left: 95px;
   }
 
@@ -1180,27 +1218,63 @@ circle {
     height: 46px;
   }
 
-  .benefits-icons__text {
+  .benefits-icon__text {
     padding-left: 12px;
   }
 
   .benefits__picture {
-    width: 763px;
+    width: 733px;
     height: 463px;
   }
 
-  .icon-7-text {
-    max-width: 600px;
+  .first__ben__row {
+    max-width: 620px;
+  }
+
+  .first-icon__text {
+    max-width: 240px;
+  }
+
+  .second-icon__text {
+    max-width: 195px;
+  }
+
+  .second__ben__row {
+    max-width: 655px;
+  }
+
+  .third-icon__text {
+    max-width: 300px;
+  }
+
+  .fourth-icon__text {
+    max-width: 230px;
+  }
+
+  .third__ben__row {
+    max-width: 630px;
+  }
+
+  .fifth-icon__text {
+    max-width: 270px;
+  }
+
+  .sixth-icon__text {
+    max-width: 200px;
+  }
+
+  .last__ben__row {
+    max-width: 620px;
   }
 
   .benefits__bg-container {
     max-width: 960px;
-    margin-top: -1010px;
+    margin-top: -960px;
   }
 
   .benefits__bg {
     max-width: 910px;
-    height: 1070px;
+    height: 1020px;
     margin-left: -104px;
   }
 
@@ -1234,10 +1308,6 @@ circle {
   .reasons__right-content {
     margin-top: 70px;
     margin-left: 33px;
-  }
-
-  .col {
-    gap: 35px;
   }
 
   .reasons__icon-text {
@@ -1281,6 +1351,7 @@ circle {
 
   .techonology__right-column {
     margin-top: 88px;
+    margin-left: 40px;
   }
 
   .right-image-1 {
@@ -1311,7 +1382,7 @@ circle {
 
   .technology__bg {
     font-size: 11.8rem;
-    margin-top: -1510px;
+    margin-top: -1430px;
     margin-left: -35px;
   }
 
@@ -1398,6 +1469,7 @@ circle {
   }
 
   .payment__text {
+    max-width: 150px;
     font-size: 0.86rem;
     margin-top: 8px;
   }
@@ -1862,7 +1934,7 @@ circle {
     margin-top: 37px;
     margin-left: 0;
     gap: 31px;
-    padding-left: 70px;
+    padding-left: 50px;
   }
 
   .icon {
@@ -1870,31 +1942,64 @@ circle {
     height: 35px;
   }
 
-  .benefits-icons__text {
+  .benefits-icon__text {
+    font-size: 0.9rem;
     padding-left: 9px;
   }
 
-  .right-icons {
-    margin-left: 20px;
-  }
-
-  .icon-7-text {
-    max-width: 520px;
-  }
-
   .benefits__picture {
-    width: 572px;
-    height: 347px;
+    width: 610px;
+    height: 350px;
+  }
+
+  .first__ben__row {
+    max-width: 530px;
+  }
+
+  .first-icon__text {
+    max-width: 210px;
+  }
+
+  .second-icon__text {
+    max-width: 170px;
+  }
+
+  .second__ben__row {
+    max-width: 570px;
+  }
+
+  .third-icon__text {
+    max-width: 260px;
+  }
+
+  .fourth-icon__text {
+    max-width: 210px;
+  }
+
+  .third__ben__row {
+    max-width: 540px;
+  }
+
+  .fifth-icon__text {
+    max-width: 230px;
+  }
+
+  .sixth-icon__text {
+    max-width: 180px;
+  }
+
+  .last__ben__row {
+    max-width: 550px;
   }
 
   .benefits__bg-container {
     max-width: 720px;
-    margin-top: -765px;
+    margin-top: -785px;
   }
 
   .benefits__bg {
     max-width: 840px;
-    height: 810px;
+    height: 830px;
     margin-left: -78px;
   }
 
@@ -1939,16 +2044,32 @@ circle {
 
   .reasons__right-content {
     margin: 0;
-    margin-top: 20px;
+    margin-top: 10px;
+    gap: 15px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .reason {
+    flex-direction: column;
+    align-items: center;
   }
 
   .reasons__icon-text {
+    margin-top: 10px;
     margin-left: 9px;
   }
 
   .reasons__h3 {
+    text-align: center;
     font-size: 0.9rem;
     margin-bottom: 8px;
+  }
+
+  .reasons__text {
+    text-align: center;
   }
 
   .reasons__bg {
@@ -1958,7 +2079,7 @@ circle {
   }
 
   .technology__h2 {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 16px;
   }
 
@@ -1993,7 +2114,7 @@ circle {
   }
 
   .techonology__right-column {
-    margin-top: 0;
+    margin: 0;
   }
 
   .right-image-1 {
@@ -2129,7 +2250,7 @@ circle {
     width: 399px;
     height: 143px;
     font-size: 7.5rem;
-    margin-top: -430px;
+    margin-top: -500px;
   }
 
   .contacts__container {
@@ -2321,27 +2442,10 @@ circle {
     padding-left: 0;
   }
 
-  .benefits-icons__text {
-    font-size: 0.8rem;
-  }
-
-  .first-icon__text {
-    width: 200px;
-  }
-
-  .left-icon__text {
-    max-width: 200px;
-    width: 100%;
-  }
-
   .benefits__picture {
     margin-left: 0;
     width: 530px;
     height: 320px;
-  }
-
-  .icon-7-text {
-    max-width: 450px;
   }
 
   .benefits__bg-container {
@@ -2358,17 +2462,7 @@ circle {
   }
 
   .reasons__right-content {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .col {
-    margin-bottom: 10px;
-    gap: 10px;
-  }
-
-  .reason {
-    justify-content: flex-start;
+    margin-top: 5px;
   }
 
   .reasons__bg {
@@ -2376,9 +2470,13 @@ circle {
     margin-top: -10px;
   }
 
+  .technology__h2 {
+    margin-top: 50px;
+  }
+
   .technology__bg {
     font-size: 6rem;
-    margin-top: -2200px;
+    margin-top: -2220px;
   }
 
   .payment__text {
@@ -2386,7 +2484,7 @@ circle {
   }
 
   .payment__bg {
-    margin-top: -415px;
+    margin-top: -480px;
   }
 
   .contacts__container {
