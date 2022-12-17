@@ -2251,7 +2251,7 @@ circle {
 
   .benefits__container {
     max-width: 580px;
-    padding: 47px 20px 0 80px;
+    padding: 47px 20px 0 20px;
     gap: 30px;
   }
 
