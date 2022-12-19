@@ -170,6 +170,10 @@ circle {
   margin-left: 10px;
 }
 
+.dialog {
+  display: none;
+}
+
 .nav__menu {
   display: flex;
   list-style: none;
@@ -501,15 +505,28 @@ circle {
   margin-top: -45px;
 }
 
-.benefits__container {
-  max-width: 1220px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 70px 20px 0 150px;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+.benefits__background {
+  position: absolute;
+  margin-left: -125px;
+  width: 1114px;
+  height: 1282px;
   background-color: #F9F4F4;
+  z-index: 0;
+}
+
+.symbol {
+  margin-top: 58%;
+}
+
+.front-content {
+  position: relative;
+  display: flex;
+  padding-top: 60px;
+  padding-left: 130px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  z-index: 1;
 }
 
 .benefits__h2 {
@@ -1125,10 +1142,21 @@ circle {
     margin-top: -37px;
   }
 
-  .benefits__container {
-    max-width: 1000px;
-    padding: 57px 20px 0 123px;
-    gap: 41px;
+  .benefits__background {
+    width: 960px;
+    height: 1070px;
+  }
+
+  .symbol {
+    width: 430px;
+    height: 580px;
+    margin-top: 51%;
+  }
+
+  .front-content {
+    padding-top: 50px;
+    padding-left: 130px;
+    gap: 40px;
   }
 
   .icon {
@@ -1472,10 +1500,6 @@ circle {
   }
 
   .btn__links {
-    display: inline;
-  }
-
-  .btn__links {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -1521,6 +1545,7 @@ circle {
   }
 
   .whatsapp-icon {
+    margin-top: 3px;
     width: 16px;
     height: 16px;
   }
@@ -1797,9 +1822,20 @@ circle {
     margin-top: -28px;
   }
 
-  .benefits__container {
-    max-width: 760px;
-    padding: 47px 20px 0 100px;
+  .benefits__background {
+    margin-left: -80px;
+    width: 770px;
+    height: 900px;
+  }
+
+  .symbol {
+    width: 350px;
+    height: 500px;
+  }
+
+  .front-content {
+    padding-top: 50px;
+    padding-left: 110px;
     gap: 30px;
   }
 
@@ -2249,9 +2285,21 @@ circle {
     margin-top: -50px;
   }
 
-  .benefits__container {
-    max-width: 580px;
-    padding: 47px 20px 0 20px;
+  .benefits__background {
+    margin-left: -80px;
+    width: 600px;
+    height: 820px;
+  }
+
+  .symbol {
+    width: 300px;
+    height: 450px;
+    margin-top: 60%;
+  }
+
+  .front-content {
+    padding-top: 50px;
+    padding-left: 0;
     gap: 30px;
   }
 
@@ -2293,3 +2341,18 @@ circle {
     max-width: 580px;
   }
 }
+
+.bhl {
+  width: 600px;
+  height: 455px;
+  border: 4px #842231 dotted;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.bhl div {
+  margin: 8px;
+  padding: 4px;
+  border: 4px #842231 dotted;
+}
+
