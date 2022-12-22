@@ -47,6 +47,7 @@ body {
 a:hover {
   color: var(--hover-links-color);
   background: transparent;
+  transform: scale(1.1);
 }
 
 a {
@@ -62,6 +63,10 @@ img {
   max-width: 100%;
   height: auto;
   transition: 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 path {
@@ -190,6 +195,14 @@ circle {
   font-family: 'Fira Sans Regular';
   font-size: 1rem;
   color: var(--icon-text-links-color);
+}
+
+.submenu__item {
+  transition: 0.3s ease-in-out;
+}
+
+.submenu__item:hover {
+  transform: scale(1.1);
 }
 
 .first-section__container {
@@ -715,6 +728,15 @@ circle {
   padding: 0;
   border-width: 0;
   margin-top: 3px;
+  transition: 0.3s ease-in-out;
+}
+
+.form-group:hover {
+  transform: scale(1.1);
+}
+
+.form-group:hover .form-image-user, .form-image-phone {
+  transform: scale(1.1);
 }
 
 .form-legend {
@@ -725,12 +747,14 @@ circle {
   position: absolute;
   margin-top: 30px;
   margin-left: 20px;
+  transition: 0.3s ease-in-out;
 }
 
 .form-image-phone {
   position: absolute;
   margin-top: 27px;
   margin-left: 25px;
+  transition: 0.3s ease-in-out;
 }
 
 .form-input {
@@ -786,10 +810,6 @@ circle {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.payment__submenu:nth-child(even) {
-  color: var(--ui-color);
 }
 
 .payment__text {
@@ -883,6 +903,14 @@ circle {
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
+}
+
+.footer__menu li {
+  transition: 0.3s ease-in-out;
+}
+
+.footer__menu li:hover {
+  transform: scale(1.1);
 }
 
 .footer__links {
@@ -1506,17 +1534,18 @@ circle {
     width: 35px;
     height: 25px;
     cursor: pointer;
-    background-color: #FFA500;
-    border: 1px solid #FFA500;
+    background-color: var(--hover-links-color);
+    border: 1px solid var(--hover-links-color);
     transition: 0.3s ease-in-out;
   }
 
   .btn__links:hover {
     background: transparent;
+    transform: scale(1.1);
   }
 
   .btn__links:hover .btn-line {
-    background-color: #FFA500;
+    background-color: var(--hover-links-color);
     transition: 0.3s ease-in-out;
   }
 
@@ -2342,17 +2371,4 @@ circle {
   }
 }
 
-.bhl {
-  width: 600px;
-  height: 455px;
-  border: 4px #842231 dotted;
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-.bhl div {
-  margin: 8px;
-  padding: 4px;
-  border: 4px #842231 dotted;
-}
 
