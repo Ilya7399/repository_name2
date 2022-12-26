@@ -119,7 +119,7 @@ circle {
 .first-screen__section {
   display: flex;
   flex-direction: column;
-  background-image: url(/assets/img/Секция\ header/Фон.jpg);
+  background-image: url(/assets/img/header/Фон.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
