@@ -6,10 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Элитный коттеджный городок</title>
-
-  <!-- Normalize CSS -->
   <link rel="stylesheet" href="/css/normalize.css" />
-  <!-- Styles -->
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 
@@ -45,22 +42,22 @@
           <nav class="nav">
             <ul class="nav__menu menu list-reset">
               <li class="submenu__item">
-                <a class="submenu__link" href="#">О проекте</a>
+                <a class="submenu__link" href="#about-project">О проекте</a>
               </li>
               <li class="submenu__item">
-                <a class="submenu__link" href="#">Локация</a>
+                <a class="submenu__link" href="#location">Локация</a>
               </li>
               <li class="submenu__item">
-                <a class="submenu__link" href="#">Преимущества</a>
+                <a class="submenu__link" href="#benefits">Преимущества</a>
               </li>
               <li class="submenu__item">
-                <a class="submenu__link" href="#">Почему мы?</a>
+                <a class="submenu__link" href="#reasons">Почему мы?</a>
               </li>
               <li class="submenu__item">
-                <a class="submenu__link" href="#">Способы оплаты</a>
+                <a class="submenu__link" href="#payment">Способы оплаты</a>
               </li>
               <li class="submenu__item">
-                <a class="submenu__link" href="#">Контакты</a>
+                <a class="submenu__link" href="#contacts">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -110,7 +107,7 @@
   </section>
 
   <main>
-    <section class="about-project__section">
+    <section class="about-project__section" id="about-project">
       <!-- about-project = a-p -->
       <div class="a-p__container">
         <div class="a-p__left-content">
@@ -165,7 +162,7 @@
                 alt="Логотип строительной компании MM Group" />
             </picture>
             <div class="a-p__red-rec a-p__image"></div>
-            <img class="points a-p__image" src="/assets/img/about-project/points.png" />
+            <img class="points a-p__image" src="/assets/img/about-project/points.png" alt="Дизайн сайта" />
           </figure>
           <article class="a-p__description a-p__purpose">
             <h3 class="a-p__purpose-h3 a-p__h3 h3">Цель</h3>
@@ -204,7 +201,7 @@
             <picture class="cottages__relative-picture">
               <source srcset="/assets/img/cottages/Rectangle6.avif" type="image/avif">
               <source srcset="/assets/img/cottages/Rectangle6.webp" type="image/webp">
-              <img class="rec__6" src="assets/img/cottages/Rectangle 6.jpg" alt="Изображение коттеджа" />
+              <img class="rec__6" src="assets/img/cottages/Rectangle6.jpg" alt="Изображение коттеджа" />
             </picture>
             <img class="cottages__points cottage__image" src="assets/img/cottages/points.png"
               alt="Изображение внутренней планировки здания" />
@@ -212,7 +209,8 @@
           <div class="cottages__square">
             <p class="cottages__figure-text">179 м<sup>2</sup></p>
             <figure>
-              <img class="rec__7 cottage__image" src="assets/img/cottages/Rectangle7.png" />
+              <img class="rec__7 cottage__image" src="assets/img/cottages/Rectangle7.png"
+                alt="Внутренняя планировка здания" />
             </figure>
           </div>
           <a class="right-arrow" href="#">
@@ -226,7 +224,7 @@
                 <path fill="#fff" d="M36 25c0 .3-.2.5-.5.5h-21a.5.5 0 0 1 0-1h21c.3 0 .5.2.5.5Z" />
               </g>
               <defs>
-                <clipPath id="a">
+                <clipPath id="ab">
                   <path fill="#fff" d="M14 36V14h22v22z" />
                 </clipPath>
               </defs>
@@ -234,33 +232,28 @@
           </a>
         </div>
       </div>
-
     </section>
 
-    <section class="location__section">
+    <section class="location__section" id="location">
       <div class="location__container">
         <article class="location__content">
           <h2 class="location__h2 h2">Локация</h2>
-          <p class="text">
-            Закрытый коттеджный городок Nura Elite <br />
-            расположен в элитном и перспективном районе <br />
-            столицы, рядом с зелёным поясом по соседству с <br />
-            Vella Village.
+          <p class="location__text text">
+            Закрытый коттеджный городок Nura Elite расположен в элитном и перспективном районе столицы, рядом с зелёным
+            поясом по соседству с Vella Village.
           </p>
-          <p class="text">
-            Nura Elite - это прекрасное пространство для <br />
-            уединения и активной семейной жизни в <br />
-            гармонии с природой, без городского шума с <br />
-            удобной транспортной развязкой.
+          <p class="location__text text">
+            Nura Elite - это прекрасное пространство для уединения и активной семейной жизни в гармонии с природой, без
+            городского шума с удобной транспортной развязкой.
           </p>
         </article>
         <figure class="location__images">
-          <img class="location__points location__image" src="/assets/img/Секция о локации/points.png" />
+          <img class="location__points location__image" src="/assets/img/location/points.png" alt="Дизайн сайта" />
           <div class="location__red-rec location__image"></div>
           <picture>
-            <source srcset="/assets/img/Секция коттеджи/Rectangle 3.avif" type="image/avif">
-            <source srcset="/assets/img/Секция коттеджи/Rectangle 3.webp" type="image/webp">
-            <img class="rec__3 location__image" src="/assets/img/Секция о локации/Rectangle 3.jpg"
+            <source srcset="/assets/img/location/Rectangle3.avif" type="image/avif">
+            <source srcset="/assets/img/location/Rectangle3.webp" type="image/webp">
+            <img class="rec__3 location__image" src="/assets/img/location/Rectangle3.jpg"
               alt="Изображение месторасположения коттеджного городка" />
           </picture>
         </figure>
@@ -268,11 +261,10 @@
       </div>
     </section>
 
-    <section class="benefits__section">
+    <section class="benefits__section" id="benefits">
       <div class="ben container">
         <div class="benefits__background">
-          <img class="symbol" src="/assets/img/Секция основные преимущества городка/symbol 3.png"
-            alt="Логотип компании NURA ELITE">
+          <img class="symbol" src="/assets/img/benefits/symbol3.png" alt="Логотип компании NURA ELITE">
         </div>
         <div class="front-content">
           <h2 class="benefits__h2 h2">
@@ -280,25 +272,25 @@
           </h2>
           <div class="benefits">
             <article class="benefits__icon-text">
-              <img class="icon" src="/assets/img/Секция основные преимущества городка/clarity_map-line.png">
+              <img class="icon" src="/assets/img/benefits/clarity_map-line.png" alt="Изображение карты">
               <p class="first-icon__text benefits__text text">
                 Выгодное месторасположение
               </p>
             </article>
             <article class="benefits__icon-text">
-              <img class="icon" src="/assets/img/Секция основные преимущества городка/Rectangle 32.png">
+              <img class="icon" src="/assets/img/benefits/Rectangle32.png" alt="Изображение щита с галочкой">
               <p class="second-icon__text benefits__text text">
                 Охраняемая территория
               </p>
             </article>
             <article class="benefits__icon-text">
-              <img class="icon" src="/assets/img/Секция основные преимущества городка/Rectangle 29.png" />
+              <img class="icon" src="/assets/img/benefits/Rectangle29.png" alt="Изображение забора" />
               <p class="third-icon__text benefits__text text">
                 Городок по периметру огражден 3-метровым забором, оснащен системой видеонаблюдения 24/7
               </p>
             </article>
             <article class="benefits__icon-text">
-              <img class="icon" src="/assets/img/Секция основные преимущества городка/Rectangle 31.png" />
+              <img class="icon" src="/assets/img/benefits/Rectangle31.png" alt="Изображение кресла" />
               <p class="fourth-icon__text benefits__text text">
                 Здесь вы почувствуете уединенность, безопасность и комфорт
               </p>
@@ -306,28 +298,28 @@
           </div>
           <figure class="benefits__figure">
             <picture>
-              <source srcset="/assets/img/Секция коттеджи/Rectangle 8.avif" type="image/avif">
-              <source srcset="/assets/img/Секция коттеджи/Rectangle 8.webp" type="image/webp">
-              <img class="benefits__picture" src="/assets/img/Секция основные преимущества городка/Rectangle 8.jpg"
+              <source srcset="/assets/img/benefits/Rectangle8.avif" type="image/avif">
+              <source srcset="/assets/img/benefits/Rectangle8.webp" type="image/webp">
+              <img class="benefits__picture" src="/assets/img/benefits/Rectangle8.jpg"
                 alt="Изображение въезда в поселок" />
             </picture>
           </figure>
           <div class="benefits">
             <article class="benefits__icon-text">
-              <img class="icon" src="/assets/img/Секция основные преимущества городка/Rectangle 26.png" />
+              <img class="icon" src="/assets/img/benefits/Rectangle26.png" alt="Изображение дома" />
               <p class="fifth-icon__text benefits__text text">
                 Индивидуальные участки ограждены 2-метровыми заборами
               </p>
             </article>
             <article class="benefits__icon-text">
-              <img class="icon" src="/assets/img/Секция основные преимущества городка/Rectangle 28.png" />
+              <img class="icon" src="/assets/img/benefits/Rectangle28.png" alt="Изображение телефона" />
               <p class="sixth-icon__text benefits__text text">
                 Собственное приложение
               </p>
             </article>
           </div>
           <article class="benefits__icon-text last-benefit">
-            <img class="icon" src="/assets/img/Секция основные преимущества городка/Rectangle 27.png" />
+            <img class="icon" src="/assets/img/benefits/Rectangle27.png" alt="Изображение кирпичной стены" />
             <p class="benefits__text text">
               Каждому владельцу коттеджа даётся возможность на своем земельном
               участке возводить дополнительные застройки: баню, сауну, летнюю кухню и др.
@@ -337,23 +329,22 @@
       </div>
     </section>
 
-    <section class="reasons__section">
+    <section class="reasons__section" id="reasons">
       <div class="reasons container">
         <h2 class="reasons__h2 h2">Почему NURA ELITE?</h2>
         <div class="reasons__content">
           <figure>
             <picture>
-              <source srcset="/assets/img/Секция коттеджи/Rectangle 9.avif" type="image/avif">
-              <source srcset="/assets/img/Секция коттеджи/Rectangle 9.webp" type="image/webp">
-              <img class="rec__9 reasons__image" src="assets/img/Секция причины/Rectangle 9.jpg"
-                alt="Изображение коттеджа" />
+              <source srcset="/assets/img/reasons/Rectangle9.avif" type="image/avif">
+              <source srcset="/assets/img/reasons/Rectangle9.webp" type="image/webp">
+              <img class="rec__9 reasons__image" src="assets/img/reasons/Rectangle9.jpg" alt="Изображение коттеджа" />
             </picture>
             <div class="reasons__red-rec reasons__image"></div>
-            <img class="reasons__points reasons__image" src="assets/img/Секция причины/points.png" />
+            <img class="reasons__points reasons__image" src="assets/img/reasons/points.png" alt="Дизайн сайта" />
           </figure>
           <div class="reasons__right-content">
             <article class="reasons__icon-text">
-              <img class="icon" src="/assets/img/Секция причины/Rectangle 21.png" />
+              <img class="icon" src="/assets/img/reasons/Rectangle21.png" alt="Изображение молнии" />
               <div>
                 <h3 class="reasons__h3 h3">Энергоэффектиновсть</h3>
                 <p class="reasons__text">
@@ -362,7 +353,7 @@
               </div>
             </article>
             <article class="reasons__icon-text">
-              <img class="icon" src="/assets/img/Секция причины/Rectangle 23.png" />
+              <img class="icon" src="/assets/img/reasons/Rectangle23.png" alt="Изображение ростка над руками" />
               <div>
                 <h3 class="reasons__h3 h3">Экологически чистый район</h3>
                 <p class="reasons__text">
@@ -371,7 +362,7 @@
               </div>
             </article>
             <article class="reasons__icon-text">
-              <img class="icon" src="/assets/img/Секция причины/Rectangle 22.png" />
+              <img class="icon" src="/assets/img/reasons/Rectangle22.png" alt="Изображение щита с галочкой" />
               <div>
                 <h3 class="reasons__h3 h3">Безопасность</h3>
                 <p class="reasons__text">
@@ -380,13 +371,12 @@
               </div>
             </article>
             <article class="reasons__icon-text">
-              <img class="icon" src="/assets/img/Секция причины/Rectangle 25.png" />
+              <img class="icon" src="/assets/img/reasons/Rectangle25.png" alt="Изображение капли" />
               <div>
                 <h3 class="reasons__h3 h3">Коммуникации</h3>
                 <p class="reasons__text">
-                  Централизованное водоснабжение, энергоснабжение и
-                  канализация. <br> <br> Отопительная система и горячая вода - это один общий
-                  газгольдер на весь городок, функционирующий за счет газа.
+                  Централизованное водоснабжение, энергоснабжение и канализация.<br><br>Отопительная система и горячая
+                  вода - это один общий газгольдер на весь городок, функционирующий за счет газа.
                 </p>
               </div>
             </article>
@@ -396,7 +386,7 @@
       </div>
     </section>
 
-    <section class="technology__section">
+    <section class="technology__section" id="technology">
       <div class="technology container">
         <h2 class="technology__h2 h2">Технология строения</h2>
         <div class="technology__content">
@@ -405,9 +395,9 @@
               <li class="technology__list-items">
                 <figure>
                   <picture>
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 11.avif" type="image/avif">
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 11.webp" type="image/webp">
-                    <img class="left-image-1" src="/assets/img/Секция технология строения/Rectangle 11.jpg"
+                    <source srcset="/assets/img/technology/Rectangle11.avif" type="image/avif">
+                    <source srcset="/assets/img/technology/Rectangle11.webp" type="image/webp">
+                    <img class="left-image-1" src="/assets/img/technology/Rectangle11.jpg"
                       alt="Изображение конструкции стены" />
                   </picture>
                 </figure>
@@ -421,9 +411,9 @@
               <li class="technology__list-items">
                 <figure>
                   <picture>
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 13.avif" type="image/avif">
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 13.webp" type="image/webp">
-                    <img class="left-image-2" src="/assets/img/Секция технология строения/Rectangle 13.jpg"
+                    <source srcset="/assets/img/technology/Rectangle13.avif" type="image/avif">
+                    <source srcset="/assets/img/technology/Rectangle13.webp" type="image/webp">
+                    <img class="left-image-2" src="/assets/img/technology/Rectangle13.jpg"
                       alt="Изображение конструкции двери" />
                   </picture>
                 </figure>
@@ -439,9 +429,9 @@
               <li class="technology__list-items">
                 <figure>
                   <picture>
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 15.avif" type="image/avif">
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 15.webp" type="image/webp">
-                    <img class="left-image-3" src="/assets/img/Секция технология строения/Rectangle 15.jpg"
+                    <source srcset="/assets/img/technology/Rectangle15.avif" type="image/avif">
+                    <source srcset="/assets/img/technology/Rectangle15.webp" type="image/webp">
+                    <img class="left-image-3" src="/assets/img/technology/Rectangle15.jpg"
                       alt="Изображение конструкции фасада" />
                   </picture>
                 </figure>
@@ -462,9 +452,9 @@
               <li class="technology__list-items">
                 <figure>
                   <picture>
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 12.avif" type="image/avif">
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 12.webp" type="image/webp">
-                    <img class="right-image-1" src="/assets/img/Секция технология строения/Rectangle 12.jpg"
+                    <source srcset="/assets/img/technology/Rectangle12.avif" type="image/avif">
+                    <source srcset="/assets/img/technology/Rectangle12.webp" type="image/webp">
+                    <img class="right-image-1" src="/assets/img/technology/Rectangle12.jpg"
                       alt="Изображение конструкции окна" />
                   </picture>
                 </figure>
@@ -483,9 +473,9 @@
               <li class="technology__list-items">
                 <figure>
                   <picture>
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 14.avif" type="image/avif">
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 14.webp" type="image/webp">
-                    <img class="right-image-2" src="/assets/img/Секция технология строения/Rectangle 14.jpg"
+                    <source srcset="/assets/img/technology/Rectangle14.avif" type="image/avif">
+                    <source srcset="/assets/img/technology/Rectangle14.webp" type="image/webp">
+                    <img class="right-image-2" src="/assets/img/technology/Rectangle14.jpg"
                       alt="Изображение конструкции кровли" />
                   </picture>
                 </figure>
@@ -501,9 +491,9 @@
               <li class="technology__list-items">
                 <figure>
                   <picture>
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 16.avif" type="image/avif">
-                    <source srcset="/assets/img/Секция коттеджи/Rectangle 16.webp" type="image/webp">
-                    <img class="right-image-3" src="/assets/img/Секция технология строения/Rectangle 16.jpg"
+                    <source srcset="/assets/img/technology/Rectangle16.avif" type="image/avif">
+                    <source srcset="/assets/img/technology/Rectangle16.webp" type="image/webp">
+                    <img class="right-image-3" src="/assets/img/technology/Rectangle16.jpg"
                       alt="Изображение материала для облицовки фасада" />
                   </picture>
                 </figure>
@@ -532,51 +522,52 @@
         <h2 class="presentation__h2 h2">Скачать презентацию</h2>
         <p class="presentation__text">
           Оставьте свои контакты и мы вам вышлем
+        </p>
+      </div>
+      <div class="presentation__buttons">
+        <fieldset class="form-group">
           <legend class="form-legend">Ваше имя</legend>
-          <input class="form-image-user" type="image" src="/assets/img/Область презетация/user.svg">
+          <input class="form-image-user" type="image" src="/assets/img/presentation/user.svg" alt="Иконка пользователя">
           <input class="form-input" type="text" placeholder="Ваше имя" />
         </fieldset>
         <fieldset class="form-group">
           <legend class="form-legend">Номер телефона</legend>
-          <input class="form-image-phone" type="image" src="/assets/img/Область презетация/Phone.svg">
+          <input class="form-image-phone" type="image" src="/assets/img/presentation/Phone.svg" alt="Иконка телефона">
           <input class="form-input" type="tel" placeholder="Номер телефона" />
         </fieldset>
-        <a class="presentation__button-send" href="/" type="submit">Отправить</a>
+        <button class="presentation__button-send" type="submit">Отправить</button>
       </div>
     </div>
 
-    <div class="payment__container">
+    <div class="payment__container" id="payment">
       <h2 class="payment__h2 h2">Способы оплаты</h2>
       <ul class="payment__menu list-reset">
         <li class="payment__submenu">
-          <img class="payment__image-1" src="/assets/img/Область способы оплаты/image 2.png"
-            alt="Логотип компании ЖилСтройСберБанк" />
+          <img class="payment__image-1" src="/assets/img/payment/image2.png" alt="Логотип компании ЖилСтройСберБанк" />
           <p class="payment__text">Получение займа через АО "ЖилСтройСберБанк"</p>
         </li>
         <li class="payment__submenu">
-          <img class="payment__image-2" src="/assets/img/Область способы оплаты/0.png" alt="Изображение 0%">
+          <img class="payment__image-2" src="/assets/img/payment/0.png" alt="Изображение 0%">
           <p class="payment__text">Получение беспроцентной рассрочки от застройщика NURA ELITE</p>
         </li>
         <li class="payment__submenu">
-          <img class="payment__image-3" src="/assets/img/Область способы оплаты/image 4.png"
-            alt="Логотип компании Орда" />
+          <img class="payment__image-3" src="/assets/img/payment/image4.png" alt="Логотип компании Орда" />
           <p class="payment__text">Казахстанская Ипотечная Компания «Орда»</p>
         </li>
         <li class="payment__submenu">
-          <img class="payment__image-4" src="/assets/img/Область способы оплаты/logos_bitcoin.png"
-            alt="Изображение биткоина" />
+          <img class="payment__image-4" src="/assets/img/payment/logos_bitcoin.png" alt="Изображение биткоина" />
           <p class="payment__text">Оплата криптовалютой (Биткоин)</p>
         </li>
       </ul>
       <p class="payment__bg">Оплата</p>
     </div>
 
-    <div class="contacts__container">
+    <div class="contacts__container" id="contacts">
       <figure>
         <picture>
-          <source srcset="/assets/img/Область Контакты/Rectangle 20.avif" type="image/avif">
-          <source srcset="/assets/img/Область Контакты/Rectangle 20.webp" type="image/webp">
-          <img class="contacts__image" src="/assets/img/Область Контакты/Rectangle 20.jpg"
+          <source srcset="/assets/img/contacts/Rectangle20.avif" type="image/avif">
+          <source srcset="/assets/img/contacts/Rectangle20.webp" type="image/webp">
+          <img class="contacts__image" src="/assets/img/contacts/Rectangle20.jpg"
             alt="Изображение месторасположения контактного адреса" />
         </picture>
       </figure>
@@ -618,7 +609,7 @@
             </li>
           </ul>
           <figure>
-            <img class="contacts__qr" src="/assets/img/Область Контакты/QR.png" alt="QR код" />
+            <img class="contacts__qr" src="/assets/img/contacts/QR.png" alt="QR код" />
           </figure>
         </div>
       </article>
@@ -629,16 +620,16 @@
     <nav class="footer__navigation">
       <ul class="footer__menu list-reset">
         <li>
-          <a class="footer__links" href="#">Преимущества</a>
+          <a class="footer__links" href="#benefits">Преимущества</a>
         </li>
         <li>
-          <a class="footer__links" href="#">Почему мы?</a>
+          <a class="footer__links" href="#reasons">Почему мы?</a>
         </li>
         <li>
-          <a class="footer__links" href="#">Технологии</a>
+          <a class="footer__links" href="#technology">Технологии</a>
         </li>
         <li>
-          <a class="footer__links" href="#">Способы оплаты</a>
+          <a class="footer__links" href="#payment">Способы оплаты</a>
         </li>
       </ul>
     </nav>
@@ -651,22 +642,22 @@
       <nav class="nav-inside-btn" id="call-request-close">
         <ul class="nav__menu menu list-reset">
           <li class="submenu__item">
-            <a class="submenu__link" href="#">О проекте</a>
+            <a class="submenu__link" href="#about-project">О проекте</a>
           </li>
           <li class="submenu__item">
-            <a class="submenu__link" href="#">Локация</a>
+            <a class="submenu__link" href="#location">Локация</a>
           </li>
           <li class="submenu__item">
-            <a class="submenu__link" href="#">Преимущества</a>
+            <a class="submenu__link" href="#benefits">Преимущества</a>
           </li>
           <li class="submenu__item">
-            <a class="submenu__link" href="#">Почему мы?</a>
+            <a class="submenu__link" href="#reasons">Почему мы?</a>
           </li>
           <li class="submenu__item">
-            <a class="submenu__link" href="#">Способы оплаты</a>
+            <a class="submenu__link" href="#payment">Способы оплаты</a>
           </li>
           <li class="submenu__item">
-            <a class="submenu__link" href="#">Контакты</a>
+            <a class="submenu__link" href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
